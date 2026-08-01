@@ -1,0 +1,198 @@
+<!Doctype html>
+<html lang="en" dir="ltr">
+	<head>
+	    <meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Design GIL">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/brand/favicon.ico" />
+		<title>Usuários</title>
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet"/>
+		<link href="assets/css/skin-modes.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets/css/global.css">
+		<link rel="stylesheet" href="assets/css/media-query.css">
+		<link href="assets/css/sidemenu.css" rel="stylesheet">
+		<link href="assets/plugins/charts-c3/c3-chart.css" rel="stylesheet"/>
+        <link href="assets/plugins/p-scroll/perfect-scrollbar.css" rel="stylesheet"/>
+		<link href="assets/plugins/select2/select2.min.css" rel="stylesheet"/>
+		<link href="assets/plugins/icons/icons.css" rel="stylesheet"/>
+		<link href="assets/css/designgil.css" rel="stylesheet"/>
+    </head>
+    <body class="app sidebar-mini Left-menu-Default  Sidemenu-left-icons">
+
+		<!-- PAGE -->
+		<div class="page">
+            <div class="page-main">
+
+				<div class="app-header header-search-icon"></div>
+
+
+				<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+				<aside class="app-sidebar">
+					<div class="sidebar-user-settings">
+						<div class="app-sidebar__user mb-4 mt-4"></div>
+					</div>
+					<ul class="side-menu"></ul>
+				</aside>
+
+				<div class="mobile-header"></div>
+	
+				<div class="app-content">
+					<div class="side-app">
+
+				
+						<div class="row row_principal">
+
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
+										<div class="grid-margin">
+											
+											<div class="card-header" style="padding: 0 0 5px 0; margin-bottom: 10px;">
+												<ol class="breadcrumb">
+													<li class="breadcrumb-item"><h3 class="mb-0 breadcrump-tittle" style="cursor: default;">Usuários</h3></li>
+												</ol>
+												<div class="ml-auto">
+													<a class="btn btn-primary" data-toggle="modal" data-target="#cadastrar"><i class="fa-solid fa-plus"></i> Novo Usuário</a>
+												</div>
+											</div>
+
+											<div class="table-responsive">
+												<table class="table card-table table-vcenter text-nowrap align-items-center">
+													<thead class="thead-light">
+														<tr>
+															<th>Nome</th>
+															<th style="text-align: center; padding-right: 12px;">Ações</th>
+														</tr>
+													</thead>
+													<tbody id="resultados"></tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+			
+					</div>
+				</div>
+	
+            </div>
+
+        </div>
+
+
+		<div class="modal fade" id="cadastrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document" style="max-width: 800px;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Cadastro de Usuário</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<div class="modal-body">
+
+						<div style="float: left; width: 100%;">
+	
+							<div style="float: left; width: 100%; padding-left: 20px;">
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Nome</label>
+									<input type="text" class="form-control nome_cadastrar" name="nome" placeholder="Nome Completo">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%; margin-right: 2%;">
+									<label class="label">Login</label>
+									<input type="text" class="form-control login_cadastrar" name="login" placeholder="Login">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;">
+									<label class="label">Senha</label>
+									<input type="password" class="form-control senha_cadastrar" name="senha" placeholder="Senha">
+								</div>
+
+							</div>
+
+						</div>
+
+						<a class="btn btn-primary" onclick="Cadastrar()" style="float: right;">Cadastrar</a>
+						<a class="btn btn-primary" data-dismiss="modal" style="float: right;margin-right: 10px;background: #767676;">Cancelar</a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="editar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document" style="max-width: 800px;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Cadastro de Usuário</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<div class="modal-body">
+
+						<div style="float: left; width: 100%;">
+
+							<div style="float: left; width: 100%; padding-left: 20px;">
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Nome</label>
+									<input type="text" class="form-control nome_editar" name="nome" placeholder="Nome Completo">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%; margin-right: 2%;">
+									<label class="label">Login</label>
+									<input type="text" class="form-control login_editar" name="login" placeholder="Login">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;">
+									<label class="label">Senha</label>
+									<input type="text" class="form-control senha_editar" name="senha" placeholder="Senha">
+								</div>
+
+							</div>
+
+						</div>
+
+						<a class="btn btn-primary" onclick="Salvar()" style="float: right;">Salvar</a>
+						<a class="btn btn-primary" data-dismiss="modal" style="float: right;margin-right: 10px;background: #767676;">Cancelar</a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+		<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+		<script src="assets/js/sweetalert.all.min.js"></script>
+		<script src="assets/js/jquery.mask.min.js"></script>
+		<script src="assets/js/global.js?v=5"></script>
+		<script src="assets/plugins/sidemenu/sidemenu.js"></script>
+		<script src="assets/plugins/p-scroll/perfect-scrollbar.js"></script>
+		<script src="assets/plugins/p-scroll/p-scroll.js"></script>
+		<script src="assets/plugins/p-scroll/p-scroll-1.js?v=2"></script>
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+		<script src="assets/plugins/select2/select2.full.min.js"></script>
+		<script src="assets/js/form-elements.js"></script>
+		<script src="assets/js/custom.js"></script>   
+		<script src="assets/js/usuarios.js"></script>  
+
+
+
+    </body>
+</html>
+
+

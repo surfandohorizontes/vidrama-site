@@ -1,0 +1,9357 @@
+/* RESPONSIVIDADE/MEDIA QUERY */
+@media (min-width: 0px) and (max-width: 452px) {
+    /* PADROES */
+    .row_principal {
+        margin-top: 20px!important;
+    }
+
+    .modal-grande {
+        max-width: 96%!important;
+    }
+
+    /* MODAL ALTERAR SENHA JS*/
+    #alterar_senha-atual {
+        float: left;
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    #alterar_senha-nova {
+        float: left; 
+        width: 100%;
+    }
+
+    /* ADMINISTRADORES */
+    .administradores-perfil {
+        margin-bottom: 0px;
+        width: 140px;
+    }
+
+    .adm-cad-nome {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .adm-cad-email {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .adm-cad-senha {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .checkbox-definir-menus {
+        width: 50%;
+    }
+
+    .breadcrump-tittle {
+        font-size: 18px;
+    }
+
+    .administradores-senha_atual {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .administradores-nova_senha {
+        width: 100%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-nome {
+        width: 100%;
+    }
+
+    .clientes-cad-cep {
+        width: 100%;
+    }
+
+    .clientes-cad-logradouro {
+        width: 100%;
+    }
+
+    .clientes-cad-numero {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-complemento {
+        width: 68%;
+        margin-right: 0%;
+    }
+
+    .clientes-cad-bairro {
+        width: 100%;
+    }
+
+    .clientes-cad-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 100%;
+    }
+
+    .clientes-cad-email {
+        width: 100%;
+    }
+
+    .clientes-cad-tel {
+        width: 100%;
+    }
+
+    .clientes-cad-contato {
+        width: 100%;
+    }
+
+    .clientes-modal-nome { 
+        width: 100%; 
+    }
+
+    .clientes-modal-cep { 
+        width: 100%; 
+    }
+
+    .clientes-modal-logradouro { 
+        width: 100%; 
+    }
+
+    .clientes-modal-numero {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-complemento {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-bairro { 
+        width: 100%; 
+    }
+
+    .clientes-modal-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-cpf-cnpj { 
+        width: 100%; 
+    }
+
+    .clientes-modal-email { 
+        width: 100%; 
+    }
+
+    .clientes-modal-telefone { 
+        width: 100%; 
+    }
+
+    .clientes-modal-contato { 
+        width: 100%; 
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        float: left;
+        margin-right: 2%;
+        width: 25%;
+    }
+
+    .btn_info-editar {
+        float: left;
+        margin-right: 2%;
+        width: 35%;
+    }
+
+    .btn_info-cancelar {
+        float: left;
+        margin-right: 0;
+        width: 36%;
+    }
+
+    .btn_info-atendimento {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .info_ticket-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-data {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .title_info_ticket-data {
+        font-size: 13px;
+    }
+
+    .info_ticket-horario {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .title_info_ticket-horario {
+        font-size: 13px;
+    }
+
+    .info_ticket-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-tel {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cep {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-num {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-complemento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cidade {
+        width: 78%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-descricao2 {
+        width: 100%;
+        float: left;
+    }
+    
+    .info_ticket-fabricante2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-modelo2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-serie2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-patrimonio2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col2 {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .info_ticket-col-v1 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 49%;
+        float: left;
+    } 
+
+    .info_ticket-col-v5 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 49%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .btn_editar-cancelar {
+        float: left;
+        width: 38%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .edit_ticket-codigo, .edit_ticket-data, .edit_ticket-horario, .edit_ticket-projeto, .edit_ticket-especialidade,
+    .edit_ticket-parceiro, .edit_tickets-atendimento, .edit_ticket-nome_cliente, .edit_ticket-cep, .edit_ticket-nome,
+    .edit_ticket-tel, .edit_ticket-logradouro, .edit_ticket-num, .edit_ticket-complemento, .edit_ticket-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cidade {
+        margin-right: 2%;
+        width: 71%;
+    }
+
+    .edit_ticket-estado {
+        width: 27%;
+    }
+
+    .edit_ticket-fabricante, .edit_ticket-modelo, .edit_ticket-serie, .edit_ticket-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2, .edit_ticket-modelo2, .edit_ticket-serie2, .edit_ticket-patrimonio2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    .label_info-deslocamento {
+        font-size: 13px;
+    }
+
+    .edit_ticket-fechamento_data, .edit_ticket-fechamento_horario1, .edit_ticket-fechamento_horario2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_tickets-fechamento_rat1, .edit_tickets-fechamento_rat2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_tickets-voltar {
+        margin-right: 3%;
+    }
+
+    /* TICKETS - CADASTRAR */
+
+    .cad_tickets-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-data {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-horario {
+        width: 100%;
+    }
+
+    .cad_tickets-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cep {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-estado {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-num {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-complemento {
+        width: 68%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .col_receber-1 {
+        width: 100%;
+    }
+    
+    .col_receber-2 {
+        width: 100%;
+    }
+
+    .cad_tickets-atendimento {
+        width: 100%;
+    }
+
+    .cad_titulo-valores_adicionais {
+        margin-top: 25px;
+    }
+
+    .cadastrar-col_pagar {
+        margin-top: 35px;
+    }
+
+    .cadastrar-col_parceiro {
+        margin-top: 35px;
+    }
+
+    .btn_salvar_ticket {
+        margin-left: 2%;
+    }
+
+    #cad_ticket-voltar { 
+        margin-right: 5%;
+    }
+
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-status {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-cidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-data {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* CALENDARIO */
+    .fc .fc-head th {
+        font-size: 10px!important;
+    }
+
+    .fc td, .fc th {
+        font-size: 12px;
+    }
+
+    .fc-button-group {
+        font-size: 13px!important;
+    }
+
+    .fc-today-button {
+        float: right!important;
+    }
+
+    .fc-toolbar .fc-left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fc-toolbar .fc-right {
+        margin-bottom: 15px;
+        display: inline-block;
+        float: none!important;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data, .relatorio_periodo-data2, .relatorio_periodo-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor, .relatorio_fornecedor-data, .relatorio_fornecedor-data2, .relatorio_fornecedor-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto, .relatorio_projeto-data, .relatorio_projeto-data2, .relatorio_projeto-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro, .relatorio_parceiro-data, .relatorio_parceiro-data2, .relatorio_parceiro-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante, .equip_modelo, .equip_num-serie, .equip_patrimonio, .equip_cliente, .equip_parceiro, .equip_ticket, .equip_equipamentos  {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* PRINCIPAL TELA PARCEIROS */
+    .parceiros-razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*PARCEIROS > EDITAR PARCEIROS > PJ*/
+
+    .editar_parceiro-cnpj{
+        width: 100%;
+    }
+
+    .editar_parceiro-razao{
+        width: 100%; 
+    }
+
+    .editar_parceiro-fantasia{
+        width: 100%;
+    }
+
+    .editar_parceiro-data{
+        width: 100%;
+    }
+
+    .editar_parceiro-especialidades{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > ENDEREÇO - PJ*/
+
+    .editar_parceiro-cep_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-logradouro_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-bairro_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-cidade_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-estado_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-numero_juri{
+        width: 100%;
+    }
+
+    .editar_parceiro-complemento_juri{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > VALORES PADRÕES - PJ*/
+
+    .editar_parceiro-horas{
+        width: 100%;
+    }
+
+    .editar_parceiro-adicional{
+        width: 100%;
+    }
+
+    .editar_parceiro-km_percorrido{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > USUÁRIO ADMINISTRADOR DA EMPRESA -PJ*/
+
+    .editar_parceiro-adm-nome{
+        width: 100%;
+    }
+
+    .editar_parceiro-adm-whatsapp{
+        width: 100%;
+    }
+
+    .editar_parceiro-adm-cpf{
+        width: 100%;
+    }
+
+    .editar_parceiro-adm-rg{
+        width: 100%;
+    }
+
+    .editar_parceiro-adm-senha{
+        width: 100%;
+    }
+
+    .editar_parceiro-adm-email{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > PF*/
+
+    .editar_parceiro-cpf-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-fantasia-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-especialidades_pf{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > ENDEREÇO - PF*/
+
+    .editar_parceiro-cep_fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-logradouro-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-bairro-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-cidade2-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-estado-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-numero-fis{
+        width: 100%;
+    }
+
+    .editar_parceiro-complemento_pf{
+        width: 100%;
+    }
+
+    /*EDITAR PARCEIRO > VALORES PADRÕES - PF*/
+
+    .editar_parceiro-horas2{
+        width: 100%;
+    }
+
+    .editar_parceiro-adicional2{
+        width: 100%;
+    }
+
+    .editar_parceiro-km_percorrido2{
+        width: 100%;
+    }
+
+    /* PARCEIROS > EDITAR > DADOS DO PARCEIRO */
+    .novo_parceiro-horas, .novo_parceiro-adicional, .novo_parceiro-km_percorrido {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .novo_parceiro-horas2, .novo_parceiro-adicional2, .novo_parceiro-km_percorrido2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-email {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-whatsapp {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-cpf {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-rg {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-senha {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_editar_parceiro-alterar_senha {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    /* PARCEIROS > EDITAR > DADOS BANCARIOS */
+    .header_editar_parceiro-responsivo {
+        display: block;
+    }
+
+    .novo_parceiro-filtro {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .dados-pessoa_juridica {
+        margin-right: 0;
+    }
+
+    .dados-nome_favorecido, .dados-cpf, .dados-tipo_pix, .dados-chave_pix, .dados-banco {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .dados-conta_poupanca {
+        margin-right: 0;
+    }
+
+    .dados-agencia, .dados-conta {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .dados-digito, .dados-digito2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .dados-variacao {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+    }
+
+    .novo_parceiro_data{
+        width: 100%; 
+    }
+
+    .novo_parceiro_especialidades{
+        width: 100%; 
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;  
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;  
+    }
+
+    .novo_parceiro_bairro{
+        width: 100%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 100%;
+    }
+
+    .novo_parceiro_estado{
+        width: 100%; 
+    }
+
+    .novo_parceiro_numero{
+        width: 100%;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2{
+        width: 100%;  
+    }
+
+    .novo_parceiro_horas3{
+        width: 100%;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+    }
+
+    .usuario_admin-whats{
+        width: 100%; 
+    }
+
+    .usuario_admin-cpf{
+        width: 100%;  
+    }
+
+    .usuario_admin-rg{
+        width: 100%;  
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 100%;   
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+    }
+    
+    .novo_parceiro_cep_fis{
+        width: 100%; 
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%; 
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 100%; 
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 100%; 
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 100%;
+    }
+
+    .novo_parceiro_horas3-pf{
+        width: 100%; 
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;  
+    }
+
+    .usuario_admin_whats-pf{
+        width: 100%;  
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 100%;   
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 100%;  
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%;
+    }
+
+    /*NOVO PROJETO*/
+    .nome_projeto{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .especialidades_projeto{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .projeto_rat-rs{
+        width: 23%;
+        margin-bottom: 5%;
+    }
+
+    .maximo_horas{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .hora_adicional{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .valor_km{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .rat_padrao{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .projeto_manual{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .passo_a_passo{
+        width: 100%;
+        margin-right: 0%;   
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+  /* PROJETOS > EDITAR PROJETOS  */  
+    .nome_projeto-editar{
+        width: 100%;
+    }
+
+    .fornecedor_projeto-editar{
+        width: 100%;
+    }
+
+    .especialidades_projeto-editar{
+        width: 100%;
+    }
+
+    .rat_projeto-editar{
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    .max_hora_editar{
+        width: 100%;   
+    }
+
+    .valor_hora-editar{
+        width: 100%; 
+    }
+
+    .valor_km-editar{
+        width: 100%;  
+    }
+
+    .rat_projetos-editar{
+        width: 100%; 
+    }
+
+    .manual_projetos-editar{
+        width: 100%; 
+    }
+
+    .passo_a_passo-editar{
+        width: 100%; 
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .financeiro_geral-recebido, .financeiro_geral-pago, .financeiro_geral-lucro {
+        width: 100%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .btn_info_financeiro-voltar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 2%;
+        font-size: 12px;
+    }
+
+    .btn_info_finan-fechamento {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn_info_finan-valor {
+        width: 100%;
+    }
+
+    .info_fin_pagar-titulo_fechamento, .info_fin_pagar-titulo_valor {
+        font-size: 24px;
+    }
+
+    /* FORNECEDORES */
+    .fornecedores_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 100%; 
+    }
+
+    /* EDITAR FORNECEDOR - PJ */
+    .editar_fornecedor_cnpj{
+        width: 52%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_data02{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_tel01{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_tel02{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    /* EDITAR FORNECEDOR > ENDEREÇO PJ */
+
+    .editar_fornecedor_cep{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_bairro{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_cidade{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_estado{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_numero{
+        width: 32%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    
+    /* EDITAR FORNECEDOR > PESSOA FISICA*/
+    .editar_fornecedor_cpf{
+        width: 52%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_data_pf{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    /*ENDEREÇO PF*/
+    .editar_fornecedor_cep_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedor_bairro_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 32%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    /* FORNECEDORES > NOVO FORNECEDOR */
+   .fornecedor_cnpj{
+        width: 100%;
+    }
+
+   .fornecedor_razao_social{
+        width: 100%;
+   }
+
+   .fornecedor_fantasia{
+        width: 100%;
+   }
+
+   .fornecedor_tel1{
+        width: 100%;
+   }
+
+   .novo_fornecedor_tel2{
+        width: 100%;
+   }
+
+   .novo_fornecedor_data{
+        width: 100%;
+   }
+
+    /*PESSOA FISICA*/
+    .novo_fornecedor-cpf {
+        width: 100%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        width: 100%;
+    }
+
+   /* ENDEREÇO */
+
+   .fornecedores_cep{
+        width: 100%;
+   }
+
+   .fornecedores_logradouro{
+        width: 100%;
+   }
+
+   .fornecedores_bairro{
+        width: 100%;
+   }
+ 
+   .fornecedores_cidade2{
+        width: 100%;
+   }
+
+   .fornecedores_estado{
+        width: 100%;
+   }
+
+   .fornecedores_numero{
+        width: 100%;
+   }
+
+   .novo_fornecedores_complemento{
+        width: 100%;
+   }
+
+}
+
+@media (min-width: 452px) and (max-width: 480px) {
+    /* PADROES */
+    .row_principal {
+        margin-top: 30px!important;
+    }
+
+    .modal-grande {
+        max-width: 96%!important;
+    }
+    
+    /* ADMINISTRADORES */
+    .administradores-perfil {
+        width: 150px;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 100%;
+    }
+
+    .adm-cad-senha {
+        width: 100%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-nome {
+        width: 100%;
+    }
+
+    .clientes-cad-cep {
+        width: 100%;
+    }
+
+    .clientes-cad-logradouro {
+        width: 100%;
+    }
+
+    .clientes-cad-numero {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-complemento {
+        width: 68%;
+        margin-right: 0%;
+    }
+
+    .clientes-cad-bairro {
+        width: 100%;
+    }
+
+    .clientes-cad-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 100%;
+    }
+
+    .clientes-cad-email {
+        width: 100%;
+    }
+
+    .clientes-cad-tel {
+        width: 100%;
+    }
+
+    .clientes-cad-contato {
+        width: 100%;
+    }
+
+    .clientes-modal-nome { 
+        width: 100%; 
+    }
+
+    .clientes-modal-cep { 
+        width: 100%; 
+    }
+
+    .clientes-modal-logradouro { 
+        width: 100%; 
+    }
+
+    .clientes-modal-numero {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-complemento {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-bairro { 
+        width: 100%; 
+    }
+
+    .clientes-modal-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-cpf-cnpj { 
+        width: 100%; 
+    }
+
+    .clientes-modal-email { 
+        width: 100%; 
+    }
+
+    .clientes-modal-telefone { 
+        width: 100%; 
+    }
+
+    .clientes-modal-contato { 
+        width: 100%; 
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        float: left;
+        margin-right: 2%;
+        width: 25%;
+    }
+
+    .btn_info-editar {
+        float: left;
+        margin-right: 2%;
+        width: 35%;
+    }
+
+    .btn_info-cancelar {
+        float: left;
+        margin-right: 0;
+        width: 36%;
+    }
+
+    .btn_info-atendimento {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .info_ticket-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-data {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .title_info_ticket-data {
+        font-size: 13px;
+    }
+
+    .info_ticket-horario {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .title_info_ticket-horario {
+        font-size: 13px;
+    }
+
+    .info_ticket-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-tel {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cep {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-num {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-complemento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cidade {
+        width: 78%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-descricao2 {
+        width: 100%;
+        float: left;
+    }
+    
+    .info_ticket-fabricante2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-modelo2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-serie2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-patrimonio2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col2 {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .info_ticket-col-v1 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 49%;
+        float: left;
+    } 
+
+    .info_ticket-col-v5 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 49%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .btn_editar-cancelar {
+        float: left;
+        width: 38%;
+        margin-right: 2%;
+        margin-bottom: 20px;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .edit_ticket-codigo, .edit_ticket-data, .edit_ticket-horario, .edit_ticket-projeto, .edit_ticket-especialidade,
+    .edit_ticket-parceiro, .edit_tickets-atendimento, .edit_ticket-nome_cliente, .edit_ticket-cep, .edit_ticket-nome,
+    .edit_ticket-tel, .edit_ticket-logradouro, .edit_ticket-num, .edit_ticket-complemento, .edit_ticket-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cidade {
+        margin-right: 2%;
+        width: 71%;
+    }
+
+    .edit_ticket-estado {
+        width: 27%;
+    }
+
+    .edit_ticket-fabricante, .edit_ticket-modelo, .edit_ticket-serie, .edit_ticket-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2, .edit_ticket-modelo2, .edit_ticket-serie2, .edit_ticket-patrimonio2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    .label_info-deslocamento {
+        font-size: 13px;
+    }
+
+    .edit_ticket-fechamento_data {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fechamento_horario1 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-fechamento_horario2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_tickets-fechamento_rat1, .edit_tickets-fechamento_rat2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_label-km_percorrido {
+        font-size: 13px;
+    }
+
+    .edit_tickets-voltar {
+        margin-right: 5%;
+    }
+
+    .edit_tickets-voltar {
+        margin-right: 3%;
+    }
+    
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-status {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-cidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-data {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    /* CALENDARIO */
+    .fc-today-button {
+        float: right!important;
+    }
+
+    .fc-toolbar .fc-left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fc-toolbar .fc-right {
+        margin-bottom: 15px;
+        display: inline-block;
+        float: none!important;
+    }
+    
+    .fc-toolbar .fc-center {
+        display: grid!important;
+    }
+    
+    /* TICKETS - CADASTRAR */
+    .cad_tickets-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-data {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-horario {
+        width: 100%;
+    }
+
+    .cad_tickets-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cep {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-estado {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-num {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-complemento {
+        width: 68%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .col_receber-1 {
+        width: 100%;
+    }
+
+    .editar-km_percorrido {
+        width: 50%;
+    }
+
+    .editar-valor_km {
+        width: 50%;
+    }
+    
+    .col_receber-2 {
+        width: 100%;
+    }
+
+    .cad_tickets-atendimento {
+        width: 100%;
+    }
+
+    .cad_titulo-valores_adicionais {
+        margin-top: 25px;
+    }
+
+    .cadastrar-col_pagar {
+        margin-top: 35px;
+    }
+
+    .cadastrar-col_parceiro {
+        margin-top: 35px;
+    }
+
+    .btn_salvar_ticket {
+        margin-left: 2%;
+    }
+
+    #cad_ticket-voltar { 
+        margin-right: 5%;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data, .relatorio_periodo-data2, .relatorio_periodo-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor, .relatorio_fornecedor-data, .relatorio_fornecedor-data2, .relatorio_fornecedor-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto, .relatorio_projeto-data, .relatorio_projeto-data2, .relatorio_projeto-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro, .relatorio_parceiro-data, .relatorio_parceiro-data2, .relatorio_parceiro-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante, .equip_modelo, .equip_num-serie, .equip_patrimonio, .equip_cliente, .equip_parceiro, .equip_ticket, .equip_equipamentos  {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* PRINCIPAL TELA PARCEIROS */
+    .parceiros-razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* PARCEIROS > EDITAR > DADOS DO PARCEIRO */
+    .novo_parceiro-horas, .novo_parceiro-adicional, .novo_parceiro-km_percorrido {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .novo_parceiro-horas2, .novo_parceiro-adicional2, .novo_parceiro-km_percorrido2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-email {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-whatsapp {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-cpf {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-rg {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .editar_parceiro_adm-senha {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_editar_parceiro-alterar_senha {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    /* PARCEIROS > EDITAR > DADOS BANCARIOS */
+    .header_editar_parceiro-responsivo {
+        display: block;
+    }
+
+    .novo_parceiro-filtro {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .dados-pessoa_juridica {
+        margin-right: 0;
+    }
+
+    .dados-nome_favorecido, .dados-cpf, .dados-tipo_pix, .dados-chave_pix, .dados-banco {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .dados-conta_poupanca {
+        margin-right: 0;
+    }
+
+    .dados-agencia, .dados-conta {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .dados-digito, .dados-digito2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .dados-variacao {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_data{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_estado{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_numero{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas2{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas3{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .usuario_admin-whats{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .usuario_admin-cpf{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .usuario_admin-rg{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 100%;  
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .novo_parceiro_cep_fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas3-pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .usuario_admin_whats-pf{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 100%;  
+        margin-right: 0; 
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 100%;  
+        margin-right: 0;
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%;
+    }
+
+     /*NOVO PROJETO*/
+     .nome_projeto{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .especialidades_projeto{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .projeto_rat-rs{
+        width: 23%;
+        margin-bottom: 5%;
+    }
+
+    .maximo_horas{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .hora_adicional{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .valor_km{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .rat_padrao{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .projeto_manual{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .passo_a_passo{
+        width: 100%;
+        margin-right: 0%;   
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+    
+    /* PROJETOS > EDITAR PROJETOS  */  
+    .nome_projeto-editar{
+    width: 100%!important;
+    }
+
+    .fornecedor_projeto-editar{
+    width: 100%!important;
+    }
+
+    .especialidades_projeto-editar{
+    width: 100%!important;
+    }
+
+    .rat_projeto-editar{
+    width: 20%!important;
+    margin-bottom: 10px!important;
+    }
+
+    .max_hora_editar{
+    width: 100%!important;   
+    }
+
+    .valor_hora-editar{
+    width: 100%!important; 
+    }
+
+    .valor_km-editar{
+    width: 100%!important;  
+    }
+
+    .rat_projetos-editar{
+    width: 100%!important; 
+    }
+
+    .manual_projetos-editar{
+    width: 100%!important; 
+    }
+
+    .passo_a_passo-editar{
+    width: 100%!important; 
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .financeiro_geral-recebido, .financeiro_geral-pago, .financeiro_geral-lucro {
+        width: 100%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .btn_info_financeiro-voltar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .btn_info_finan-fechamento {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn_info_finan-valor {
+        width: 100%;
+    }
+
+    /* FORNECEDORES*/
+    .fornecedores_razao{
+        width: 100%;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 50%; 
+    }
+
+    /* EDITAR FORNECEDOR - PJ */
+
+    .editar_fornecedor_cnpj{
+        width: 52%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 100%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 100%;
+    }
+
+    .editar_fornecedor_data02{
+        width: 100%;
+    }
+
+    .editar_fornecedor_tel01{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_tel02{
+        width: 100%;  
+    }
+
+    /*ENDEREÇO - PJ*/
+
+    .editar_fornecedor_cep{
+        width: 100%;   
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_bairro{
+        width: 100%;
+    }
+
+    .editar_fornecedor_cidade{
+        width: 100%;
+    }
+
+    .editar_fornecedor_estado{
+        width: 100%;
+    }
+
+    .editar_fornecedor_numero{
+        width: 32%;
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%; 
+    }
+
+    /* EDITAR FORNECEDOR - PF */
+    .editar_fornecedor_cpf{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 100%;
+    }
+
+    .editar_fornecedor_data_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 100%;
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 100%;
+    }
+
+    /*  EDITAR FORNECEDOR ENDEREÇO - PF */
+    .editar_fornecedor_cep_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedor_logadouro_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedor_bairro_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedor_cidade_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedores_estado_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedores_numero_pf{
+    width: 100%;
+    }
+
+    .editar_fornecedores_complemento_pf{
+    width: 100%;
+    }
+
+    /* FORNECEDORES > NOVO FORNECEDOR */
+   .fornecedor_cnpj{
+    width: 100%;
+   }
+
+   .fornecedor_razao_social{
+    width: 100%;
+   }
+
+   .fornecedor_fantasia{
+    width: 100%;
+   }
+
+   .fornecedor_tel1{
+    width: 100%;
+   }
+
+   .novo_fornecedor_tel2{
+    width: 100%;
+   }
+
+   .novo_fornecedor_data{
+    width: 100%;
+   }
+
+   .fornecedores_cep{
+    width: 100%;
+   }
+
+   .fornecedores_logradouro{
+    width: 100%;
+   }
+
+   .fornecedores_bairro{
+    width:100%;
+   }
+ 
+   .fornecedores_cidade2{
+    width: 100%;
+   }
+
+   .fornecedores_estado{
+    width: 100%;
+   }
+
+   .fornecedores_numero{
+    width: 100%;
+   }
+
+   .novo_fornecedores_complemento{
+    width: 100%;
+   }
+
+    /*PESSOA FISICA*/
+    .novo_fornecedor-cpf {
+        width: 100%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 512px) {
+    /* PADROES */
+    .row_principal {
+        margin-top: 100px;
+    }
+
+    .modal-grande {
+        max-width: 96%!important;
+    }
+
+    /* ADMINISTRADORES */
+    .administradores-perfil {
+        width: 150px;
+    }
+
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .adm-cad-senha {
+        width: 49%;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-nome {
+        width: 100%;
+    }
+
+    .clientes-cad-cep {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-logradouro {
+        width: 58%;
+    }
+
+    .clientes-cad-numero {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-complemento {
+        width: 68%;
+        margin-right: 0%;
+    }
+
+    .clientes-cad-bairro {
+        width: 100%;
+    }
+
+    .clientes-cad-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-email {
+        width: 57%;
+    }
+
+    .clientes-cad-tel {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-contato {
+        width: 58%;
+    }
+
+    .clientes-modal-nome { 
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .clientes-modal-cep { 
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-logradouro { 
+        width: 57%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-numero {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-complemento {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-bairro { 
+        width: 100%; 
+    }
+
+    .clientes-modal-cidade {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-estado {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-modal-cpf-cnpj { 
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-email { 
+        width: 57%; 
+        margin-right: 0;
+    }
+
+    .clientes-modal-telefone { 
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-modal-contato { 
+        width: 57%;
+        margin-right: 0;
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        float: left;
+        margin-right: 2%;
+        width: 25%;
+    }
+
+    .btn_info-editar {
+        float: left;
+        margin-right: 2%;
+        width: 35%;
+    }
+
+    .btn_info-cancelar {
+        float: left;
+        margin-right: 0;
+        width: 36%;
+    }
+
+    .btn_info-atendimento {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .info_ticket-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-data {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .title_info_ticket-data {
+        font-size: 13px;
+    }
+
+    .info_ticket-horario {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .title_info_ticket-horario {
+        font-size: 13px;
+    }
+
+    .info_ticket-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-tel {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cep {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-num {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-complemento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-bairro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cidade {
+        width: 78%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-descricao2 {
+        width: 100%;
+        float: left;
+    }
+    
+    .info_ticket-fabricante2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-modelo2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-serie2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .info_ticket-patrimonio2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col2 {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .info_ticket-col-v1 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 49%;
+        float: left;
+    } 
+
+    .info_ticket-col-v5 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 49%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .btn_editar-cancelar {
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        width: 38%;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .edit_ticket-codigo {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-data {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-horario {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-title-horario {
+        font-size: 13px;
+    }
+
+    .edit_ticket-projeto {
+        width: 58%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-especialidade {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-parceiro {
+        width: 58%;
+        margin-right: 0;
+    }
+
+    .edit_tickets-atendimento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .edit_ticket-nome_cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cep {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-nome {
+        width: 68%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-tel {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-logradouro {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-num {
+        width: 17%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-complemento {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-bairro {
+        width: 41%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cidade {
+        margin-right: 2%;
+        width: 71%;
+    }
+
+    .edit_ticket-estado {
+        width: 27%;
+    }
+
+    .edit_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio {
+        width: 59%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie2 {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio2 {
+        width: 59%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    .edit_fechamento-title-data, .edit_ticket-title-horario1, .edit_ticket-title-horario2 {
+        font-size: 12px;
+    }
+
+    .edit_tickets-voltar {
+        margin-right: 3%;
+    }
+
+    .edit_tickets-fechamento_rat1, .edit_tickets-fechamento_rat2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-status {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-cidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-data {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    /* CALENDARIO */
+    .fc-today-button {
+        float: right!important;
+    }
+
+    .fc-toolbar .fc-left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .fc-toolbar .fc-right {
+        margin-bottom: 15px;
+        display: inline-block;
+        float: none!important;
+    }
+    
+    .fc-toolbar .fc-center {
+        display: grid!important;
+    }
+    
+    /* TICKETS - CADASTRAR */
+    .cad_tickets_codigo {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets_data {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets_horario {
+        width: 100%;
+    }
+
+    .cad_tickets-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .cad_tickets-cep {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-cidade {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-estado {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-num {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-complemento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-fabricante {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-modelo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-serie {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-patrimonio {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_valor-km {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_valor-pedagio {
+        width: 49%;
+    }
+
+    .cad_valor-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_valor-total {
+        width: 49%;
+    }
+
+    .cad_padroes-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_padroes-adicional {
+        width: 49%;
+    }
+
+    .cad_padroes-km {
+        width: 100%;
+    }
+
+    .col_receber-1, .col_receber-2 {
+        width: 50%;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_periodo-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor, .relatorio_fornecedor-data, .relatorio_fornecedor-data2, .relatorio_fornecedor-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto, .relatorio_projeto-data, .relatorio_projeto-data2, .relatorio_projeto-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro, .relatorio_parceiro-data, .relatorio_parceiro-data2, .relatorio_parceiro-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%!important;
+    }
+
+     /*NOVO PROJETO*/
+     .nome_projeto{
+        width: 100%!important;
+        margin-right: 0%!important;
+    }
+
+    .fornecedor_projeto{
+        width: 100%!important;
+        margin-right: 0%!important;  
+    }
+
+    .especialidades_projeto{
+        width: 100%!important;
+        margin-right: 0%!important; 
+    }
+
+    .projeto_rat-rs{
+        width: 23%!important;
+        margin-bottom: 5%!important;
+    }
+
+    .maximo_horas{
+        width: 100%!important;
+        margin-right: 0%!important;
+    }
+
+    .hora_adicional{
+        width: 100%!important;
+        margin-right: 0%!important; 
+    }
+
+    .valor_km{
+        width: 100%!important;
+        margin-right: 0%!important;  
+    }
+
+    .rat_padrao{
+        width: 100%!important;
+        margin-right: 0%!important;
+    }
+
+    .projeto_manual{
+        width: 100%!important;
+        margin-right: 0%!important;  
+    }
+
+    .passo_a_passo{
+        width: 100%!important;
+        margin-right: 0%!important;   
+    }
+
+    /* PROJETOS > EDITAR PROJETOS  */  
+    .nome_projeto-editar{
+    width: 100%!important;
+    }
+
+    .fornecedor_projeto-editar{
+    width: 100%!important;
+    }
+
+    .especialidades_projeto-editar{
+    width: 100%!important;
+    }
+
+    .rat_projeto-editar{
+    width: 20%!important;
+    margin-bottom: 10px!important;
+    }
+
+    .max_hora_editar{
+    width: 100%!important;   
+    }
+
+    .valor_hora-editar{
+    width: 100%!important; 
+    }
+
+    .valor_km-editar{
+    width: 100%!important;  
+    }
+
+    .rat_projetos-editar{
+    width: 100%!important; 
+    }
+
+    .manual_projetos-editar{
+    width: 100%!important; 
+    }
+
+    .passo_a_passo-editar{
+    width: 100%!important; 
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .financeiro_geral-recebido, .financeiro_geral-pago, .financeiro_geral-lucro {
+        width: 100%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .btn_info_financeiro-voltar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .btn_info_finan-fechamento {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn_info_finan-valor {
+        width: 100%;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante, .equip_modelo, .equip_num-serie, .equip_patrimonio, .equip_cliente, .equip_parceiro, .equip_ticket, .equip_equipamentos  {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* PRINCIPAL TELA PARCEIROS */
+    .parceiros-razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_data{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro{
+        width: 100%;
+        margin-right:0%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_estado{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas2{
+        width: 49% ;
+        margin-right: 2%;
+    }
+    
+    .novo_parceiro_horas3{
+        width: 49% ;
+        margin-right: 0;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+    }
+
+    .usuario_admin-whats{
+        width: 100% ;
+        margin-right: 0;
+    }
+
+    .usuario_admin-cpf{
+        width: 49%;
+    }
+
+    .usuario_admin-rg{
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PF*/
+
+    .novo_parceiro_cpf-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+    }
+    
+    .novo_parceiro_cep_fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 100%;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 48%;
+        margin-right: 2%;
+    }
+   
+    .novo_parceiro_horas3-pf{
+        width: 50%;
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;
+    }
+
+    .usuario_admin_whats-pf{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 49%; 
+    }
+
+    /* FORNECEDORES*/
+    .fornecedores_razao{
+        width: 100%;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 50%; 
+    }
+
+
+    /*EDITAR FORNECEDOR - PJ */
+    .editar_fornecedor_cnpj{
+        width: 52%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 100%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_data02{
+        width: 100%t; 
+    }
+
+    .editar_fornecedor_tel01{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_tel02{
+        width: 100%;  
+    }
+
+    /* ENDEREÇO FORNECEDOR - PJ */
+    .editar_fornecedor_cep{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 100%;
+    }
+
+    .editar_fornecedor_bairro{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_cidade{
+        width: 100%;   
+    }
+
+    .editar_fornecedor_estado{
+        width: 100%;   
+    }
+
+    .editar_fornecedor_numero{
+        width: 30%;
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%;
+    }
+
+    /*EDITAR FORNECEDOR - PF*/
+    .editar_fornecedor_cpf{
+        width: 52%; 
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_data_pf{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 100%t;
+    }
+
+    /*ENDEREÇO FORNECEDOR - PF*/
+    .editar_fornecedor_cep_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedor_bairro_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 100%;
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 32%; 
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 100%; 
+    }
+
+    /* FORNECEDORES > NOVO FORNECEDOR */
+   .fornecedor_cnpj{
+    width: 100%;
+   }
+
+   .fornecedor_razao_social{
+    width: 100%;
+   }
+
+   .fornecedor_fantasia{
+    width: 100%;
+   }
+
+   .fornecedor_tel1{
+    width: 100%;
+   }
+
+   .novo_fornecedor_tel2{
+    width: 100%;
+   }
+
+   .novo_fornecedor_data{
+    width: 100%;
+   }
+
+   .fornecedores_cep{
+    width: 100%;
+   }
+
+   .fornecedores_logradouro{
+    width: 100%;
+   }
+
+   .fornecedores_bairro{
+    width: 100%;
+   }
+ 
+   .fornecedores_cidade2{
+    width: 100%;
+   }
+
+   .fornecedores_estado{
+    width: 100%;
+   }
+
+   .fornecedores_numero{
+    width: 100%;
+   }
+
+   .novo_fornecedores_complemento{
+    width: 100%;
+   }
+
+    /*PESSOA FISICA*/
+
+    .novo_fornecedor-cpf {
+        width: 100%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 513px) and (max-width: 620px) {
+    /* PADROES */
+    .row_principal {
+        margin-top: 100px;
+    }
+
+    .modal-grande {
+        max-width: 96%!important;
+    }
+
+    /* ADMINISTRADORES */
+    .administradores-perfil {
+        width: 150px;
+    }
+
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .adm-cad-senha {
+        width: 49%;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-nome {
+        width: 68%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-cep {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-logradouro {
+        width: 68%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-numero {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-complemento {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-bairro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cidade {
+        width: 68%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-estado {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-email {
+        width: 57%;
+    }
+
+    .clientes-cad-tel {
+        width: 35%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-contato {
+        width: 63%;
+    }
+
+    .clientes-modal-nome {
+        width: 68%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-cep {
+        width: 30%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-logradouro {
+        width: 68%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-numero {
+        width: 30%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-complemento {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-bairro {
+        width: 49%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-cidade {
+        width: 68%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-estado {
+        width: 30%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-cpf-cnpj {
+        width: 40%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-email {
+        width: 57%;
+    }
+    
+    .clientes-modal-telefone {
+        width: 35%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-contato {
+        width: 63%;
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        float: left;
+        margin-right: 2%;
+        width: 25%;
+    }
+
+    .btn_info-editar {
+        float: left;
+        margin-right: 2%;
+        width: 35%;
+    }
+
+    .btn_info-cancelar {
+        float: left;
+        margin-right: 0;
+        width: 36%;
+    }
+
+    .btn_info-atendimento {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .info_ticket-codigo {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-data {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-horario {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-projeto {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-especialidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-tel {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cep {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 78%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-num {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-complemento {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-bairro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cidade {
+        width: 78%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-modelo2 {
+        margin-right: 0;
+        width: 49%;
+    }
+
+    .info_ticket-serie2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col-v1 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col2 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col-v3 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v5 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 49%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .btn_editar-cancelar {
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        width: 38%;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .edit_ticket-codigo {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-data {
+        width: 58%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-horario {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-title-horario {
+        font-size: 13px;
+    }
+
+    .edit_ticket-projeto {
+        width: 58%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-especialidade {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-parceiro {
+        width: 58%;
+        margin-right: 0;
+    }
+
+    .edit_tickets-atendimento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .edit_ticket-nome_cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cep {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-nome {
+        width: 68%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-tel {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-logradouro {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-num {
+        width: 17%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-complemento {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-bairro {
+        width: 41%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cidade {
+        margin-right: 2%;
+        width: 71%;
+    }
+
+    .edit_ticket-estado {
+        width: 27%;
+    }
+
+    .edit_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio {
+        width: 59%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie2 {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio2 {
+        width: 59%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    .edit_fechamento-title-data, .edit_ticket-title-horario1, .edit_ticket-title-horario2 {
+        font-size: 13px;
+    }
+
+    .edit_tickets-voltar {
+        margin-right: 3%;
+    }
+
+    .edit_tickets-fechamento_rat1, .edit_tickets-fechamento_rat2 {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-status {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-projeto {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-cidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-data {
+        width: 49%;
+        margin-right: 0;
+    }
+    
+    /* CALENDARIO */
+    .fc-today-button {
+        float: right!important;
+    }
+
+    .fc-toolbar .fc-left {
+        margin-bottom: 15px;
+    }
+
+    .fc-toolbar .fc-right {
+        margin-bottom: 15px;
+    }
+    
+    /* TICKETS - CADASTRAR */
+    .cad_tickets-codigo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-data {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-horario {
+        width: 100%;
+    }
+
+    .cad_tickets-nome {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-cep {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-logradouro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-cidade {
+        width: 49%;
+        margin-right: 0%;
+    }
+
+    .cad_tickets-estado {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-num {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-complemento {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-projeto {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-parceiro {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-atendimento {
+        width: 100%;
+    }
+
+    .editar-km_percorrido {
+        width: 50%;
+    }
+
+    .editar-valor_km {
+        width: 50%;
+    }
+
+    .titulo_valor-parceiro {
+        margin-top: 35px;
+    }
+
+    .cad_valor-km {
+        width: 50%;
+    }
+
+    .cad_valor-pedagio {
+        width: 49%;
+    }
+
+    .cad_valor-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_valor-total {
+        width: 49%;
+    }
+
+    .cad_padroes-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_padroes-adicional {
+        width: 49%;
+    }
+
+    .cad_padroes-km {
+        width: 100%;
+    }
+
+    .col_receber-1 {
+        width: 50%;
+    }
+    
+    .col_receber-2 {
+        width: 50%;
+    }
+
+    .title_valores-padroes {
+        margin-top: 35px;
+    }
+
+    #cad_ticket-voltar {
+        margin-right: 5%;
+    }
+
+   /* TICKETS - RELATORIOS */
+   .relatorio_periodo-data {
+    width: 49%; 
+    margin-right: 2%;
+    }
+
+    .relatorio_periodo-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_periodo-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor, .relatorio_fornecedor-data, .relatorio_fornecedor-data2, .relatorio_fornecedor-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto, .relatorio_projeto-data, .relatorio_projeto-data2, .relatorio_projeto-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro, .relatorio_parceiro-data, .relatorio_parceiro-data2, .relatorio_parceiro-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_num-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_ticket {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .equip_equipamentos {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /* PRINCIPAL TELA PARCEIROS */
+    .parceiros-razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_data{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_especialidades{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_numero{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2{
+        width: 48%;
+        margin-right: 2%; 
+    }
+
+    .novo_parceiro_horas3{
+        width: 50%;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .usuario_admin-whats{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-cpf{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin-rg{
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+    }
+    
+    .novo_parceiro_cep_fis{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%;
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 48%;
+    }
+
+    .novo_parceiro_horas3-pf{
+        width: 50%;
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .usuario_admin_whats-pf{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%;
+    }
+
+    /*NOVO PROJETO*/
+    .nome_projeto{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .especialidades_projeto{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .projeto_rat-rs{
+        width: 100%;
+        margin-right: 0%; 
+        margin-bottom: 10px;
+    }
+
+    .maximo_horas{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .hora_adicional{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .valor_km{
+        width: 100%;
+        margin-right: 0%;   
+    }
+
+    .rat_padrao{
+        width: 100%;
+        margin-right: 0%;  
+    }
+
+    .projeto_manual{
+        width: 100%;
+        margin-right: 0%;   
+    }
+
+    .passo_a_passop{
+        width: 100%;
+        margin-right: 0%;   
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+    /* PROJETOS > EDITAR PROJETOS  */  
+    .nome_projeto-editar{
+    width: 100%;
+    }
+
+    .fornecedor_projeto-editar{
+    width: 100%;
+    }
+
+    .especialidades_projeto-editar{
+    width: 100%;
+    }
+
+    .rat_projeto-editar{
+    width: 20%;
+    margin-bottom: 10px;
+    }
+
+    .max_hora_editar{
+    width: 100%;   
+    }
+
+    .valor_hora-editar{
+    width: 100%; 
+    }
+
+    .valor_km-editar{
+    width: 100%;  
+    }
+
+    .rat_projetos-editar{
+    width: 100%; 
+    }
+
+    .manual_projetos-editar{
+    width: 100%; 
+    }
+
+    .passo_a_passo-editar{
+    width: 100%; 
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 50%;
+    }
+
+    .financeiro_geral-recebido, .financeiro_geral-pago, .financeiro_geral-lucro {
+       width: 100%;
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .financeiro_geral-recebido, .financeiro_geral-pago, .financeiro_geral-lucro {
+        width: 100%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .btn_info_financeiro-voltar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .btn_info_finan-fechamento {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn_info_finan-valor {
+        width: 100%;
+    }
+
+    /* FORNECEDORES*/
+.fornecedores_razao{
+        width: 100%;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 50%; 
+    }
+
+    /*EDITAR FORNECEDOR - PJ*/
+    .editar_fornecedor_cnpj{
+        width: 52%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 100%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_data02{
+        width: 50%;  
+    }
+
+    .editar_fornecedor_tel01{
+        width: 48%; 
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_tel02{
+        width: 48%;   
+    }
+
+    /* ENDEREÇO - PJ */
+    .editar_fornecedor_cep{
+        width: 100%;   
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_bairro{
+        width: 48%; 
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedor_cidade{
+        width: 50%; 
+        margin-right: 0%;  
+    }
+
+    .editar_fornecedor_estado{
+        width: 48%; 
+    }
+
+    .editar_fornecedor_numero{
+        width: 50%; 
+        margin-right: 0%;  
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%;  
+    }
+    
+    /* EDITAR FORNECEDOR - PF */
+    .editar_fornecedor_cpf{
+        width: 52%;  
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_data_pf{
+        width: 49%; 
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 49%;
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 49%; 
+    }
+ 
+    /* ENDEREÇO - PF */
+    .editar_fornecedor_cep_pf{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 100%; 
+    }
+
+    .editar_fornecedor_bairro_pf{
+        width: 50%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 48%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 49%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 100%; 
+    }
+
+    /* FORNECEDORES > NOVO FORNECEDOR */
+    .fornecedor_cnpj{
+    width: 100%;
+   }
+
+   .fornecedor_razao_social{
+    width: 100%;
+   }
+
+   .fornecedor_fantasia{
+    width: 100%;
+   }
+
+   .fornecedor_tel1{
+    width: 100%;
+   }
+
+   .novo_fornecedor_tel2{
+    width: 100%;
+   }
+
+   .novo_fornecedor_data{
+    width: 100%;
+   }
+
+    /*ENDEREÇO*/  
+   .fornecedores_cep{
+    width: 100%;
+   }
+
+   .fornecedores_logradouro{
+    width: 100%;
+   }
+
+   .fornecedores_bairro{
+    width: 100%;
+   }
+ 
+   .fornecedores_cidade2{
+    width: 100%;
+   }
+
+   .fornecedores_estado{
+    width: 100%;
+   }
+
+   .fornecedores_numero{
+    width: 100%;
+   }
+
+   .novo_fornecedores_complemento{
+    width: 100%;
+   }
+
+     /*PESSOA FISICA*/
+
+     .novo_fornecedor-cpf {
+        width: 100%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        width: 100%;
+    }
+    
+    
+}
+
+@media (min-width: 621px) and (max-width: 768px) {
+    /* ADMINISTRADORES */
+    .row_principal {
+        margin-top: 20px!important;
+    }
+
+    .modal-grande {
+        max-width: 100%!important;
+    }
+
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .adm-cad-senha {
+        width: 49%;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-nome {
+        width: 73%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-cep {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-logradouro {
+        width: 45%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-numero {
+        width: 15%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-complemento {
+        width: 36%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-bairro {
+        width: 42%;
+        margin-right: 2%;
+    }
+    
+    .clientes-cad-cidade {
+        width: 42%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-estado {
+        width: 12%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-email {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .clientes-cad-tel {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .clientes-cad-contato {
+        width: 68%;
+    }
+
+    .clientes-modal-nome {
+        width: 73%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-cep {
+        width: 25%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-logradouro {
+        width: 45%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-numero {
+        width: 15%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-complemento {
+        width: 36%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-bairro {
+        width: 42%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-cidade {
+        width: 42%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-estado {
+        width: 12%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-cpf-cnpj {
+        width: 38%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-email {
+        width: 60%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-telefone {
+        width: 30%;
+        margin-right: 2%;
+    }
+    
+    .clientes-modal-contato {
+        width: 68%;
+    }
+
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-status {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-projeto {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-cidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .listagem_filtro-data {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /* TICEKTS - CALENDARIO */
+    .fc-toolbar .fc-left {
+        margin-bottom: 15px;
+    }
+
+    .fc-toolbar .fc-right {
+        margin-bottom: 15px;
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-editar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-cancelar {
+        width: 21%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-atendimento {
+        width: 37%;
+        float: left;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info_ticket-codigo {
+        width: 22%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-data {
+        width: 37%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-horario {
+        width: 37%;
+        margin-right: 0;
+    }
+
+    .info_ticket-projeto {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-especialidade {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-parceiro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cliente {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-tel {
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cep {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 55%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-num {
+        width: 15%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-complemento {
+        width: 26%;
+        margin-right: 0;
+    }
+
+    .info_ticket-bairro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cidade {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 15%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-modelo2 {
+        margin-right: 0;
+        width: 49%;
+    }
+
+    .info_ticket-serie2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-col2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col-v1 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 49%;
+        float: left;
+    }
+
+    .info_ticket-col-v5 {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 49%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .card-header-edit_chamado {
+        display: flex;
+    }
+
+    .breadcrumb-edit_chamado {
+        margin-bottom: 0;
+    }
+
+    .btn_editar-cancelar {
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .edit_ticket-codigo {
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-data {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-horario {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-projeto {
+        width: 56%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-especialidade {
+        width: 42%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-parceiro {
+        width: 37%;
+        margin-right: 2%;
+    }
+
+    .edit_tickets-atendimento {
+        width: 61%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .edit_ticket-nome_cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cep {
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-nome {
+        width: 68%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-tel {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-logradouro {
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-num {
+        width: 17%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-complemento {
+        width: 38%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-bairro {
+        width: 41%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cidade {
+        margin-right: 2%;
+        width: 71%;
+    }
+
+    .edit_ticket-estado {
+        width: 27%;
+    }
+
+    .edit_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    /* TICKETS - CADASTRAR */
+    .cad_tickets-codigo {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-data {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-horario {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 29%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-nome {
+        width: 69%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-cep {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-logradouro {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-cidade {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-estado {
+        width: 15%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-num {
+        width: 20%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-complemento {
+        width: 61%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-projeto {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-especialidade {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-parceiro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-atendimento {
+        width: 49%;
+    }
+
+    .col_receber-1 {
+        width: 50%;
+    }
+    
+    .col_receber-2 {
+        width: 50%;
+    }
+
+    .cad_valor-km {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_valor-pedagio {
+        width: 49%;
+    }
+
+    .cad_valor-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_valor-total {
+        width: 49%;
+    }
+
+    .cad_padroes-chamado {
+        width: 50%;
+        margin-right: 1%;
+    }
+
+    .cad_padroes-adicional {
+        width: 49%;
+    }
+
+    .cad_padroes-km {
+        width: 100%;
+    }
+
+    .cad_titulo-valores_adicionais {
+        margin-top: 15px;
+    }
+
+    .editar-km_percorrido {
+        width: 50%;
+    }
+
+    .editar-valor_km {
+        width: 50%;
+    }
+
+    .title_valores-padroes, .titulo_valor-parceiro {
+        margin-top: 35px;
+    }
+
+    #cad_ticket-voltar {
+        margin-right: 3%;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_periodo-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor, .relatorio_fornecedor-data, .relatorio_fornecedor-data2, .relatorio_fornecedor-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto, .relatorio_projeto-data, .relatorio_projeto-data2, .relatorio_projeto-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro, .relatorio_parceiro-data, .relatorio_parceiro-data2, .relatorio_parceiro-status {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-data {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-data2 {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_num-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_ticket {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .equip_equipamentos {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    /* PRINCIPAL TELA PARCEIROS */
+    .parceiros-razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_data{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_especialidades{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_numero{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2{
+        width: 48%;
+        margin-right: 2%; 
+    }
+
+    .novo_parceiro_horas3{
+        width: 50%;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .usuario_admin-whats{
+        width: 33%;
+        margin-right: 2%
+    }
+
+    .usuario_admin-cpf{
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin-rg{
+        width: 33%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+    }
+    
+    .novo_parceiro_cep_fis{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%;
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 48%;
+    }
+
+    .novo_parceiro_horas3-pf{
+        width: 50%;
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .usuario_admin_whats-pf{
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 36%;
+        margin-right: 0;
+    }
+
+    /*PROJETOS >  NOVO PROJETO*/
+    .nome_projeto{
+        width: 100%;
+    }
+
+    .fornecedor_projeto{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .especialidades_projeto{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .projeto_rat-rs{
+        width: 14%;
+    }
+
+    .mg_btn-rs{
+        margin-bottom: 19px;
+    }
+
+    .maximo_horas{
+        width: 43%;
+        margin-right: 2%;
+    }
+
+    .hora_adicional{
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .valor_km{
+        width: 28%;
+        
+    }
+
+    .label_small-title{
+        font-size: 12px;
+    }
+
+    .rat_padrao{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .projeto_manual{
+        width: 48%;
+    }
+
+    .tamanho-12{
+        font-size: 11px;
+    }
+
+
+    /*PROJETOS > EDITAR PROJETO*/
+    .nome_projeto-editar{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto-editar{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .especialidades_projeto-editar{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .rat_projeto-editar{
+        width: 14%;
+    }
+
+    .max_hora_editar{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .valor_hora-editar{
+        width: 48%;
+        margin-right: 2%; 
+    }
+
+    .valor_km-editar{
+        width: 50%;
+    }
+
+    .rat_projetos-editar{
+        width: 51%;
+        margin-right: 2%;
+    }
+
+    .manual_projetos-editar{
+        width: 39%;
+        margin-right: 0%;
+    }
+
+    .passo_a_passo-editar{
+        width: 51%;
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 50%;
+    }
+
+    .financeiro_geral-recebido {
+        width: 33%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .btn_info_financeiro-voltar {
+        width: 22%;
+        margin-right: 2%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 37%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 37%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .info_fin_pagar-titulo_fechamento, .info_fin_pagar-titulo_valor {
+        font-size: 24px;
+    }
+
+    /* FORNECEDORES*/
+    .fornecedores_razao{
+        width: 100%;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 50%; 
+    }
+
+    /* EDITAR FORNECEDOR - PJ*/
+
+    .editar_fornecedor_cnpj{
+        width: 52%;  
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 100%;  
+    }
+
+    .editar_fornecedor_data02{
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_tel01{
+        width: 32%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_tel02{
+        width: 25%;
+        margin-right: 0%;
+    }
+
+    /* ENDEREÇO - PJ */
+
+    .editar_fornecedor_cep{
+        width: 32%;
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 100%;
+    }
+
+    .editar_fornecedor_bairro{
+        width: 32%;
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedor_cidade{
+        width: 32%;
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedor_estado{
+        width: 32%;
+        margin-right: 0%;  
+    }
+
+    .editar_fornecedor_numero{
+        width: 11%;
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedores_complemento{
+        width: 87%;
+        margin-right: 0%;
+    }
+    
+    /* EDITAR FORNECEDOR - PF*/
+
+    .editar_fornecedor_cpf{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 64%; 
+        margin-right: 0%;
+    }
+
+
+    .editar_fornecedor_telefone_pf01{
+        width: 32%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 32%;
+    }
+
+    /*ENDEREÇO - PF*/
+
+    .editar_fornecedor_cep_pf{
+        width: 23%;
+        margin-right: 2%;   
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 75%; 
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedor_bairro_pf{
+        width: 30%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 32%;
+        margin-right: 2%;   
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 34%;
+        margin-right: 0%; 
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 11%;
+        margin-right: 2%;  
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 87%;
+    }
+
+    /* FORNECEDORES > NOVO FORNECEDOR*/
+
+    .fornecedor_cnpj{
+        width: 100%;
+    }
+
+    .fornecedor_razao_social{
+        width: 100%;
+    }
+
+    .fornecedor_fantasia{
+        width: 100%;
+    }
+
+    .fornecedor_tel1{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_tel2{
+        width: 50%;
+        margin-right: 0%;   
+    }
+    
+    .novo_fornecedor_data{
+        width: 100%;
+    }
+
+   
+    /*PESSOA FISICA*/
+
+    .novo_fornecedor-cpf {
+        width: 100%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        width: 100%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        width: 48%;
+        margin-right: 2%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    /*ENDEREÇO*/
+
+    .fornecedores_cep{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedores_logradouro{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .fornecedores_bairro{
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .fornecedores_cidade2{
+        width: 49%;
+        margin-right: 0%;
+    }
+
+    .fornecedores_estado{
+        width: 49%;
+        margin-right: 2%; 
+    }
+
+    .fornecedores_numero{
+        width: 49%;
+        margin-right: 0%;
+    }
+
+    .novo_fornecedores_complemento{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 932px) {
+    /* PADROES */
+    .modal-grande {
+        max-width: 96%!important;
+    }
+
+    /* ADMINISTRADORES */
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .adm-cad-senha {
+        width: 49%;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-numero {
+        width: 15%;
+    }
+
+    .clientes-cad-complemento {
+        width: 42%;
+    }
+
+    .clientes-cad-bairro {
+        width: 41%;
+        margin-right: 0;
+    }
+    
+    .clientes-cad-cidade {
+        width: 30%;
+        margin-right: 1%;
+    }
+
+    .clientes-cad-estado {
+        width: 10%;
+        margin-right: 1%;
+    }
+
+    .clientes-cad-cpf-cnpj {
+        width: 20%;
+        margin-right: 1%;
+    }
+
+    .clientes-cad-email {
+        width: 37%;
+        margin-right: 0%;
+    }
+
+    .clientes-cad-tel {
+        width: 25%;
+        margin-right: 1%;
+    }
+
+    .clientes-cad-contato {
+        width: 74%;
+    }
+
+    .clientes-modal-numero {
+        width: 15%;
+    }
+    
+    .clientes-modal-complemento {
+        width: 42%;
+    }
+    
+    .clientes-modal-bairro {
+        width: 41%;
+        margin-right: 0;
+    }
+    
+    .clientes-modal-cidade {
+        width: 30%;
+        margin-right: 1%;
+    }
+    
+    .clientes-modal-estado {
+        width: 10%;
+        margin-right: 1%;
+    }
+    
+    .clientes-modal-cpf-cnpj {
+        width: 20%;
+        margin-right: 1%;
+    }
+    
+    .clientes-modal-email {
+        width: 37%;
+        margin-right: 0%;
+    }
+    
+    .clientes-modal-telefone {
+        width: 25%;
+        margin-right: 1%;
+    }
+    
+    .clientes-modal-contato {
+        width: 74%;
+    }
+    
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-editar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-cancelar {
+        width: 21%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-atendimento {
+        width: 37%;
+        float: left;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info_ticket-codigo {
+        width: 22%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-data {
+        width: 37%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-horario {
+        width: 37%;
+        margin-right: 0;
+    }
+
+    .info_ticket-projeto {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-especialidade {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-parceiro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cliente {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-nome {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-tel {
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cep {
+        width: 20%;
+        margin-right: 0;
+    }
+
+    .info_ticket-logradouro {
+        width: 55%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-num {
+        width: 15%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-complemento {
+        width: 26%;
+        margin-right: 0;
+    }
+
+    .info_ticket-bairro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cidade {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 15%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-modelo2 {
+        margin-right: 0;
+        width: 49%;
+    }
+
+    .info_ticket-serie2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-col2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col-v1 {
+        width: 50%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 50%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 50%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 50%;
+        float: left;
+    }
+
+    .info_ticket-col-v5 {
+        width: 50%;
+        margin-right: 0%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 50%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .card-header-edit_chamado {
+        display: flex;
+    }
+
+    .breadcrumb-edit_chamado {
+        margin-bottom: 0;
+    }
+
+    .btn_editar-cancelar {
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .edit_ticket-codigo {
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-data {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-horario {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-projeto {
+        width: 56%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-especialidade {
+        width: 42%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-parceiro {
+        width: 37%;
+        margin-right: 2%;
+    }
+
+    .edit_tickets-atendimento {
+        width: 61%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .edit_ticket-nome_cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cep {
+        width: 18%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-nome {
+        width: 53%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-tel {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-logradouro {
+        width: 46%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-num {
+        width: 12%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-complemento {
+        width: 38%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-bairro {
+        width: 41%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-cidade {
+        width: 43%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-estado {
+        width: 12%;
+    }
+
+    .edit_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+    
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 28%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-status {
+        width: 35%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-projeto {
+        width: 35%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 38%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-cidade {
+        width: 30%;margin-right: 1%;
+    }
+
+    .listagem_filtro-data {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    /* TICKETS - CADASTRAR */
+    .cad_tickets_codigo {
+        width: 28%;
+    }
+    .cad_tickets_data {
+        width: 24%;
+    }
+
+    .cad_tickets_data-title {
+        font-size: 13px;
+    }
+
+    .cad_tickets_horario {
+        width: 46%;
+    }
+
+    .cad_tickets-nome {
+        width: 66%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cep {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-logradouro {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 43%;
+        margin-right: 2%;
+    }
+    
+    .cad_tickets-cidade {
+        width: 38%;
+        margin-right: 2%;
+    }
+   
+    .cad_tickets-estado {
+        width: 15%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-num {
+        width: 14%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-complemento {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-projeto {
+        width: 42%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-atendimento {
+        width: 100%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .cad_tickets_descricao2 {
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .title-valor-pago {
+        font-size: 11px;
+    } 
+
+    .btn_valores-adcionar {
+        font-size: 8px;
+        width: 100px;
+    }
+
+    .cad_tickets-val1 {
+        width: 45%;
+    }
+
+    .title-valor-recebido {
+        font-size: 13px;
+    }
+
+    .cad_tickets-val2 {
+        width: 52%;
+    }
+
+    .title-valor-pago {
+        font-size: 13px;
+    }
+
+    .title_cad_tickets-val2 {
+        font-size: 10px;
+    }
+
+    .col-md-4 {
+        max-width: 100%;
+    }
+
+    .cad_titulo-valores_adicionais {
+        margin-top: 15px;
+    }
+
+    .titulo_valor-parceiro, .title_valores-padroes {
+        margin-top: 35px;
+    }
+
+    #cad_ticket-voltar {
+        margin-right: 3%;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data {
+        width: 33%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-data2 {
+        width: 33%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-status {
+        width: 30%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_num-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .equip_parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .equip_ticket {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .equip_equipamentos {
+        width: 49%;
+        margin-right: 0;
+    }
+
+   /* PRINCIPAL TELA PARCEIROS */
+   .parceiros-razao{
+    width: 100%;
+    margin-right: 0;
+    }
+
+    .parceiros-fantasia{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .parceiros-cidade{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PJ*/
+    .novo_parceiro_cnpj{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_razao{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_data{
+        width: 30%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_especialidades{
+        width: 69%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_cep{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_bairro{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_numero{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas{
+        width: 100%; 
+    }
+
+    .novo_parceiro_horas2{
+        width: 48%;
+        margin-right: 2%; 
+    }
+
+    .novo_parceiro_horas3{
+        width: 50%;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .usuario_admin-email{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .usuario_admin-whats{
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin-cpf{
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin-rg{
+        width: 30%;
+        margin-right: 0;
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+    }
+
+    .novo_parceiro_cep_fis{
+        width: 100%; 
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 100%;
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .novo_parceiro_horas-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .novo_parceiro_horas2-pf{
+        width: 48%;
+    }
+
+    .novo_parceiro_horas3-pf{
+        width: 50%;
+    }
+
+    .usuario_admin_nome-pf{
+        width: 100%; 
+        margin-right: 0; 
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .usuario_admin_whats-pf{
+        width: 34%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 29%;
+        margin-right: 0%;
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%;
+    }
+
+    /*NOVO PROJETO*/
+    .nome_projeto{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto{
+        width: 44%;
+        margin-right: 2%;
+    }
+
+    .especialidades_projeto{
+        margin-right: 1%;
+        width: 42%;
+    }
+
+    .projeto_rat-rs{
+        width: 11%;
+        margin-right: 0%;
+    }
+
+    .maximo_horas{
+        width: 44%;
+        margin-right: 2%;
+    }
+
+    .hora_adicional{
+        width: 23%;
+        margin-right: 2%;
+    }
+
+    .valor_km{
+        width: 29%;
+        margin-right: 0%;
+
+    }
+
+    .label_small-title02{
+        font-size: 12px;
+    }
+
+    .rat_padrao{
+        width: 48%;
+        margin-right: 2%;  
+    }
+
+    .projeto_manual{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+    /*PROJETOS > EDITAR PROJETO*/
+    .nome_projeto-editar{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto-editar{
+        width: 48%;
+        margin-right: 2;
+    }
+
+    .especialidades_projeto-editar{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .rat_projeto-editar{
+        width: 14%;
+    }
+
+    .max_hora_editar{
+        width: 42%;
+        margin-right: 2%
+    }
+
+    .valor_hora-editar{
+        width: 22%;
+        margin-right: 2%;
+    }
+
+    .size_label-editar{
+        font-size: 12px;
+        margin-right: 0%;
+    }
+
+    .valor_km-editar{
+        width: 32%;
+    }
+
+    .rat_projetos-editar{
+        width: 51%;
+        margin-right: 2%;
+    }
+
+    .manual_projetos-editar{
+        width: 45%;
+        margin-right: 2%;
+    }
+
+    .passo_a_passo-editar{
+        width: 51%;
+    }
+
+
+    /* FINANCEIRO BALANCO GERAL */
+    .mes_fechamento {
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .financeiro_geral-row_geral {
+        font-size: 13px;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .info_financeiro-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn_info_financeiro-voltar {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 0;
+        float: left;
+    }
+
+    /* FORNECEDORES*/
+    .fornecedores_razao{
+        width: 100%;
+    }
+
+    .fornecedores_nome{
+        width: 100%; 
+    }
+
+    .fornecedores_cidade{
+        width: 50%; 
+    }
+
+    /* EDITAR FORNECEDOR - PJ */
+
+    .editar_fornecedor_cnpj{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 67%;
+        margin-right: 2%;
+
+    }
+
+    .editar_fornecedor_data02{
+        width: 31%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_tel01{
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_tel02{
+        width: 28%;
+        margin-right: 0%;  
+    }
+
+    /* ENDEREÇO FORNECEDOR - PJ */
+
+    .editar_fornecedor_cep{
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 70%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_bairro{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_cidade{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_estado{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_numero{
+        width: 13%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%;
+    }
+    
+    /* EDITAR FORNECEDOR - PF */
+
+    .editar_fornecedor_cpf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 27%;
+        margin-right: 0%;
+    }
+
+    /* ENDEREÇO - PF */
+    .editar_fornecedor_cep_pf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_bairro_pf{
+      width: 27%;
+      margin-right: 2%;  
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 27%;
+      margin-right: 2%; 
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 27%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 13%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 100%;
+    }
+
+    /* FORNECEDOR > NOVO FORNECEDOR */
+    .fornecedor_cnpj{
+        width: 100%;
+    }
+
+    .fornecedor_razao_social{
+        width: 100%;  
+    }
+
+    .fornecedor_fantasia{
+        width: 100%; 
+    }
+
+    .fornecedor_tel1{
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_tel2{
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_data{
+        width: 46%;
+    }
+
+    /*PESSOA FISICA*/
+
+    .novo_fornecedor-cpf {
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        float: left;
+        width: 68%;
+        margin-right: 0%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        float: left;
+        width: 33%;
+        margin-right: 2%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        float: left;
+        width: 33%;
+    }
+   
+
+    /*ENDEREÇO*/
+    .fornecedores_cep{
+        width: 26%;
+        margin-right: 2%;
+    }
+
+    .fornecedores_logradouro{
+        width: 72%;
+        margin-right: 0%;
+    }
+
+    .fornecedores_bairro{
+        width: 32%;
+        margin-right: 2%;;
+    }
+
+    .fornecedores_cidade2{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .fornecedores_estado{
+        width: 32%;
+        margin-right: 0%;
+    }
+
+    .fornecedores_numero{
+        width: 14%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedores_complemento{
+        width: 84%;
+    }
+}
+
+@media (min-width: 933px) and (max-width: 1040px) {  
+
+    .modal-grande {
+        max-width: 96%!important;
+    }
+    /* ADMINISTRADORES */
+    .adm-cad-nome {
+        width: 100%;
+    }
+
+    .adm-cad-email {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .adm-cad-senha {
+        width: 49%;
+    }
+
+    .checkbox-definir-menus {
+        width: 33%;
+    }
+
+    /* CLIENTES */
+    .clientes-cad-cpf-cnpj {
+        width: 20%;
+    }
+
+    .clientes-cad-email {
+        width: 30%;
+    }
+
+    .clientes-modal-cpf-cnpj {
+        width: 20%;
+    }
+
+    .clientes-modal-email {
+        width: 30%;
+    }
+
+    /* TICKETS - INFO */
+    .card-header_responsivo {
+        display: block;
+    }
+
+    .breadcrumb_responsivo {
+        margin-bottom: 20px;
+    }
+
+    .btn_info-voltar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-editar {
+        width: 18%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-cancelar {
+        width: 21%;
+        float: left;
+        margin-right: 2%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn_info-atendimento {
+        width: 37%;
+        float: left;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info_ticket-codigo {
+        width: 13%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-data {
+        width: 20%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-horario {
+        width: 21%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-projeto {
+        width: 40%;
+        margin-right: 0;
+    }
+
+    .info_ticket-especialidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-cliente {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-nome {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-tel {
+        width: 22%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cep {
+        width: 17%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-logradouro {
+        width: 57%;
+        margin-right: 0;
+    }
+
+    .info_ticket-num {
+        width: 10%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-complemento {
+        width: 22%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-bairro {
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-cidade {
+        width: 19%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-estado {
+        width: 8%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-fabricante2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-modelo2 {
+        margin-right: 0;
+        width: 49%;
+    }
+
+    .info_ticket-serie2 {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    .info_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col1 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .info_ticket-col2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .info_ticket-col-v1 {
+        width: 50%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .info_ticket-col-v2 {
+        width: 50%;
+        float: left;
+    }
+
+    .info_ticket-col-v3 {
+        width: 50%;
+        margin-right: 0;
+        float: left;
+    }
+
+    .info_ticket-col-v4 {
+        width: 50%;
+        float: left;
+    }
+
+    .info_ticket-col-v5 {
+        width: 50%;
+        margin-right: 0%;
+        float: left;
+    }
+
+    .info_ticket-col-v6 {
+        width: 50%;
+        float: left;
+    } 
+
+    /* TICKETS - INFO > EDITAR */
+    .card-header-edit_chamado {
+        display: flex;
+    }
+
+    .breadcrumb-edit_chamado {
+        margin-bottom: 0;
+    }
+
+    .btn_editar-cancelar {
+        float: right;
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
+
+    .btn_editar-atendimento {
+        float: left;
+        margin-bottom: 0;
+    }
+
+    .edit_ticket-codigo {
+        width: 25%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-data {
+        width: 39%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-horario {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-projeto {
+        width: 56%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-especialidade {
+        width: 42%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-parceiro {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_tickets-atendimento {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .btn_escolher_arquivo {
+        width: 100%;
+    }
+
+    .edit_ticket-nome_cliente {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-cep {
+        width: 18%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-nome {
+        width: 53%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-tel {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-logradouro {
+        width: 41%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-num {
+        width: 17%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-complemento {
+        width: 38%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-bairro {
+        width: 41%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-cidade {
+        width: 43%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-estado {
+        width: 12%;
+    }
+
+    .edit_ticket-fabricante {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-fabricante2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-modelo2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-serie2 {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .edit_ticket-patrimonio2 {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .edit_ticket-col1 {
+        width: 100%;
+    }
+
+    .edit_ticket-col2 {
+        width: 100%;
+    }
+
+    .edit_ticket-col-v1, .edit_ticket-col-v2 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v3, .edit_ticket-col-v4, .edit_ticket-col-v5, .edit_ticket-col-v6 {
+        width: 50%;
+    }
+
+    .edit_ticket-col-v6-title {
+        font-size: 13px;
+    }
+
+    .editar-km_percorrido, .editar-valor_km {
+        width: 50%;
+    }
+
+    /* TICKETS - LISTAGEM */
+    .listagem_filtro-codigo {
+        width: 28%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-status {
+        width: 35%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-projeto {
+        width: 35%;
+        margin-right: 0;
+    }
+
+    .listagem_filtro-parceiro {
+        width: 38%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-cidade {
+        width: 30%;
+        margin-right: 1%;
+    }
+
+    .listagem_filtro-data {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    /* TICKETS - CADASTRAR */
+    .cad_tickets_codigo {
+        width: 28%;
+    }
+
+    .cad_tickets_data {
+        width: 26%;
+    }
+    
+    .cad_tickets_horario {
+        width: 44%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-nome {
+        width: 66%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-tel-cliente {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-cep {
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-logradouro {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-bairro {
+        width: 43%;
+        margin-right: 2%;
+    }
+    
+    .cad_tickets-cidade {
+        width: 38%;
+        margin-right: 2%;
+    }
+   
+    .cad_tickets-estado {
+        width: 15%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-num {
+        width: 14%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-complemento {
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-projeto {
+        width: 42%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-especialidade {
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .cad_tickets-parceiro {
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .cad_tickets-atendimento {
+        width: 42%;
+    }
+
+    .title-valor-chamado {
+        font-size: 12px;
+    }
+
+    .title-valor-total_recebido {
+        font-size: 12px;
+    }
+
+    .titulo_valor-parceiro {
+        font-size: 16px;
+    }
+
+    .font-hora-adcional {
+        font-size: 12px;
+    }
+    
+    .title-valor-pago {
+        font-size: 13px;
+    }
+
+    .title-valor-total {
+        font-size: 13px;
+    }
+
+    .title_valores-padroes {
+        font-size: 16px;
+    }
+
+    .cad_tickets-estado-title {
+        font-size: 13px;
+    }
+
+    .title_cad_tickets-val2 {
+        font-size: 13px;
+    }
+
+    .check_desloc2, .check_pedagio2 {
+        margin-right: 0;
+    }
+
+    .editar-km_percorrido, .editar-valor_km {
+        max-width: 100%;
+    }
+
+    /* TICKETS - RELATORIOS */
+    .relatorio_periodo-data {
+        width: 33%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-data2 {
+        width: 33%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_periodo-status {
+        width: 30%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-fornecedor {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_fornecedor-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_fornecedor-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-projeto {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_projeto-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_projeto-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-parceiro {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-data {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    .relatorio_parceiro-data2 {
+        width: 49%; 
+        margin-right: 2%;
+    }
+
+    .relatorio_parceiro-status {
+        width: 49%; 
+        margin-right: 0;
+    }
+
+    /* EQUIPAMENTOS */
+    .equip_fabricante {
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .equip_modelo {
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .equip_num-serie {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .equip_patrimonio {
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .equip_cliente {
+        width: 33%;
+        margin-right: 2%;
+    }
+
+    .equip_parceiro {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .equip_ticket {
+        width: 33%;
+        margin-right: 2%;
+    }
+    
+    .equip_equipamentos {
+        width: 33%;
+        margin-right: 0;
+    }
+
+     /* NOVO PARCEIRO - PJ */
+    .novo_parceiro_cnpj{
+        width: 28%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_razao{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+   .novo_parceiro_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .novo_parceiro_data{
+        width: 25%;
+        margin-right: 1%;
+    }
+    
+    .novo_parceiro_especialidades{
+        width: 74%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_cep{
+        width: 18%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_logradouro{
+        width: 81%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_bairro{
+        width: 33%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_cidade2{
+        width: 33%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_estado{
+        width: 32%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero{
+        width: 11%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_complemento{
+        width: 88%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_horas-pf, .novo_parceiro_horas{
+        width: 35%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_horas2-pf, .novo_parceiro_horas2{
+        width: 31%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_horas3-pf, .novo_parceiro_horas3{
+        width: 32%;
+        margin-right: 0%;
+    }
+
+    .usuario_admin-nome{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .usuario_admin-email{
+        width: 100%;
+        margin-right: 0%; 
+    }
+    
+    .font_menor{
+        font-size: 12px;
+    }
+
+    .usuario_admin-whats{
+        width: 33%;
+        margin-right: 1%; 
+    }
+
+    .usuario_admin-cpf{
+        width: 33%;
+        margin-right: 1%;  
+    }
+
+    .usuario_admin-rg{
+        width: 32%;
+        margin-right: 0%; 
+    }
+
+    /*NOVO PARCEIRO - PF*/
+    .novo_parceiro_cpf-fis{
+        width: 22%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_fantasia-fis{
+        width: 77%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_especialidades_pf{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_cep_fis{
+        width: 17%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_logradouro-fis{
+        width: 82%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_bairro-fis{
+        width: 32%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_cidade2-fis{
+        width: 32%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_estado-fis{
+        width: 34%;
+        margin-right: 0%;
+    }
+
+    .novo_parceiro_numero-fis{
+        width: 11%;
+        margin-right: 1%;
+    }
+
+    .novo_parceiro_complemento_pf{
+        width: 88%;
+    }
+
+    /*USUARIO ADIMINISTRADOR DA EMPRESA - PF*/
+    .usuario_admin_nome-pf{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .usuario_admin_email-pf{
+        width: 100%;
+        margin-right: 0%; 
+    }
+
+    .usuario_admin_whats-pf{
+        width: 33%;
+        margin-right: 1%;
+    }
+
+    .usuario_admin_cpf-pf{
+        width: 33%;
+        margin-right: 1%;
+    }
+
+    .usuario_admin_cpf-rg{
+        width: 32%;
+    }
+
+    /* FORNECEDORES*/
+    .fornecedores_razao{
+        width: 50%;
+        margin-right: 2%;
+    }
+
+    .fornecedores_nome{
+        width: 48%;
+        margin-right: 0%; 
+    }
+
+    .fornecedores_cidade{
+        width: 35%; 
+    }
+
+    /* EDITAR FORNECEDOR - PJ */
+    .editar_fornecedor_cnpj{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_razao_social{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_nome_fantasia{
+        width: 72%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_data02{
+        width: 26%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_tel01{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_tel02{
+        width: 27%;
+        margin-right: 0%; 
+    }
+
+    /* ENDEREÇO - PJ */
+    .editar_fornecedor_cep{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_logadouro{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_bairro{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_cidade{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_estado{
+        width: 27%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_numero{
+        width: 13%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento{
+        width: 100%;
+    }
+
+    /* EDITAR FORNECEDOR - PF */
+    .editar_fornecedor_cpf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_pf_fantasia{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_telefone_pf01{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_telefone_pf02{
+        width: 27%;
+        margin-right: 0%;
+    }
+
+    /* ENDEREÇO - PF */
+    .editar_fornecedor_cep_pf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedor_logadouro_pf{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedor_bairro_pf{
+        width: 27%;
+        margin-right: 2%; 
+    }
+
+    .editar_fornecedor_cidade_pf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedores_estado_pf{
+        width: 27%;
+        margin-right: 2%;
+    }
+
+    .editar_fornecedores_numero_pf{
+        width: 13%;
+        margin-right: 0%;
+    }
+
+    .editar_fornecedores_complemento_pf{
+        width: 100%;
+    }
+
+    /*PROJETOS*/
+    .select_filtro_projetos{
+        width: 100%;
+    }
+
+    /*NOVO PROJETO*/
+     .nome_projeto{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_projeto{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .especialidades_projeto{
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    .projeto_rat-rs{
+        width: 13%;
+        margin-right: 0%;
+    }
+
+    .maximo_horas{
+        width: 36%;
+        margin-right: 2%
+    }
+
+    .hora_adicional{
+        width: 28%;
+        margin-right: 2%;
+    }
+
+    .valor_km{
+        width: 32%;
+        margin-right: 0%;
+
+    }
+
+    .mg_check-box{
+        margin-bottom: 15px;
+    }
+
+    .rat_padrao{
+        width: 45%;
+        margin-right: 2%;
+    }
+
+    .projeto_manual{
+        width: 24%;
+        margin-right: 2%;
+    }
+
+    /*PROJETOS > EDITAR PROJETO*/
+    .nome_projeto-editar{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .fornecedor_projeto-editar{
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .especialidades_projeto-editar{
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .rat_projeto-editar{
+        width: 14%;
+    }
+
+    .max_hora_editar{
+        width: 34%;
+        margin-right: 2%;
+    }
+
+    .valor_hora-editar{
+        width: 30%;
+        margin-right: 2%;
+    }
+
+    .size_label-editar{
+        font-size: 12px;
+        margin-right: 0%;
+    }
+
+    .valor_km-editar{
+        width: 32%;
+    }
+
+    .rat_projetos-editar{
+        width: 47%;
+        margin-right: 2%;
+    }
+
+    .manual_projetos-editar{
+        width: 45%;
+        margin-right: 2%;
+    }
+
+    .passo_a_passo-editar{
+        width: 51%;
+    }
+
+
+    /* FINANCEIRO - BALANCO GERAL */
+    .mes_fechamento {
+        width: 35%;
+    }
+
+    /* FINANCEIRO A PAGAR > INFO */
+    .info_financeiro-header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn_info_financeiro-voltar {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .info_fin_pagar-btn_exportar {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .info_fin_pagar-btn_comprovante {
+        width: 49%;
+        margin-right: 0;
+        float: left;
+    }
+
+    /* FORNECEDOR > NOVO FORNECEDOR */
+    .fornecedor_cnpj{
+        width: 27%;
+        margin-right: 2%;
+    }
+    
+    .fornecedor_razao_social{
+        width: 71%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_fantasia{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .fornecedor_tel1{
+        width: 24%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_tel2{
+        width: 24%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_data{
+        width: 48%;
+        margin-right: 0%;
+    }
+
+    /*PESSOA FISICA*/
+
+    .novo_fornecedor-cpf {
+        float: left;
+        width: 24%;
+        margin-right: 2%;
+    }
+
+    .novo_fornecedor_fantasia-pf {
+        float: left;
+        width: 74%;
+        margin-right: 0%;
+    }
+    
+    .novo_fornecedor_tel-pf{
+        float: left;
+        width: 24%;
+        margin-right: 2%;
+    }
+    
+    .novo_fornecedor_tel-pf02 {
+        float: left;
+        width: 24%;
+    }
+   
+
+    /* ENDEREÇO */
+    .fornecedores_cep{
+    width: 27%;
+    margin-right: 2%;
+    }
+
+    .fornecedores_logradouro{
+    width: 71%;
+    margin-right: 0%;
+    }
+
+    .fornecedores_bairro{
+    width: 27%;
+    margin-right: 2%;
+    }
+
+    .fornecedores_cidade2{
+    width: 27%;
+    margin-right: 2%;
+    }
+
+    .fornecedores_estado{
+    width: 27%;
+    margin-right: 2%;
+    }
+
+    .fornecedores_numero{
+    width: 13%;
+    margin-right: 0%;
+    }
+
+    .novo_fornecedores_complemento{
+    width: 85%;
+    }
+
+    
+}
+

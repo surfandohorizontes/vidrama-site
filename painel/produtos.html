@@ -1,0 +1,377 @@
+<!Doctype html>
+<html lang="en" dir="ltr">
+	<head>
+	    <meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Design GIL">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/brand/favicon.ico" />
+		<title>Produtos</title>
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet"/>
+		<link href="assets/css/skin-modes.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="assets/css/global.css">
+		<link rel="stylesheet" href="assets/css/media-query.css">
+		<link href="assets/css/sidemenu.css" rel="stylesheet">
+		<link href="assets/plugins/charts-c3/c3-chart.css" rel="stylesheet"/>
+        <link href="assets/plugins/p-scroll/perfect-scrollbar.css" rel="stylesheet"/>
+		<link href="assets/plugins/select2/select2.min.css" rel="stylesheet"/>
+		<link href="assets/plugins/icons/icons.css" rel="stylesheet"/>
+		<link href="assets/css/designgil.css" rel="stylesheet"/>
+    </head>
+    <body class="app sidebar-mini Left-menu-Default  Sidemenu-left-icons">
+
+		<!-- PAGE -->
+		<div class="page">
+            <div class="page-main">
+
+				<div class="app-header header-search-icon"></div>
+
+
+				<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+				<aside class="app-sidebar">
+					<div class="sidebar-user-settings">
+						<div class="app-sidebar__user mb-4 mt-4"></div>
+					</div>
+					<ul class="side-menu"></ul>
+				</aside>
+
+				<div class="mobile-header"></div>
+	
+				<div class="app-content">
+					<div class="side-app">
+
+				
+						<div class="row row_principal">
+
+							<div class="col-12">
+								<div class="card">
+									<div class="card-body">
+										<div class="grid-margin">
+											
+											<div class="card-header" style="padding: 0 0 5px 0; margin-bottom: 10px;">
+												<ol class="breadcrumb">
+													<li class="breadcrumb-item"><h3 class="mb-0 breadcrump-tittle" style="cursor: default;">Produtos</h3></li>
+												</ol>
+												<div class="ml-auto">
+													<input type="file" id="arquivo" name="arquivo" style="display:none">
+													<a class="btn btn-primary" id="btnImportar" style="margin-right: 10px;background: #05c173;"><i class="fa-solid fa-plus"></i> Importar</a>
+													<a class="btn btn-primary" data-toggle="modal" data-target="#cadastrar"><i class="fa-solid fa-plus"></i> Novo Produto</a>
+												</div>
+											</div>
+
+											<div id="resultados" style="gap: 20px;justify-content: flex-start;flex-wrap: wrap;display: flex;"></div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+			
+					</div>
+				</div>
+	
+            </div>
+
+        </div>
+
+
+			
+
+		<div class="modal fade" id="cadastrar" data-backdrop="static">
+			<div class="modal-dialog" role="document" style="max-width: 800px;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Cadastro de Produto</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="CancelarCadastroProduto()">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<div class="modal-body">
+
+						<div style="float: left; width: 100%;">
+
+							<form method="POST" id="form_img_item" enctype="multipart/form-data" style="float: left; width: 100%;"> 
+								<div style="display:flex; gap:15px; align-items:flex-start; margin-bottom: 15px; width: 100%;">
+									<div id="main-preview" style="flex: 0 0 40%; height: 240px; border: 2px solid #1071b8; border-radius: 8px; position: relative; overflow: hidden;">
+										<img src="assets/images/sem-foto.webp" id="main-preview-img" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+										<span style="position: absolute; top: 6px; left: 6px; background: #1071b8; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 12px;">Principal</span>
+									</div>
+									<div id="image-slots" style="flex: 1; display: flex; flex-direction: column; gap: 10px;">
+										<div class="image-row" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; width: 100%;">
+											<div class="image-slot" data-slot="0" draggable="true" style="width: 100%; height: 110px; border: 2px solid #1071b8; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem0" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-0" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem0" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+											<div class="image-slot" data-slot="1" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem1" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-1" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem1" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+											<div class="image-slot" data-slot="2" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem2" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-2" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem2" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+										</div>
+										<div class="image-row" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; width: 100%;">
+											<div class="image-slot" data-slot="3" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem3" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-3" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem3" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+											<div class="image-slot" data-slot="4" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem4" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-4" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem4" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+											<div class="image-slot" data-slot="5" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagem5" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-item-5" class="slot-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" name="images[]" id="inputImagem5" class="slot-input" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">×</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<input type="hidden" name="primary_index" id="primary_index" value="0">
+							</form>
+
+							<div style="float: left; width: 100%; padding-left: 0;">
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Titulo</label>
+									<input type="text" class="form-control titulo_cadastrar" name="nome" placeholder="Titulo">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+									<label class="label">Codigo</label>
+									<input type="text" class="form-control codigo_cadastrar" name="codigo" placeholder="Codigo">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;">
+									<label class="label">Categoria</label>
+									<select class="form-control categoria" name="categoria" style="width: 100%;font-size: 12px;padding-top: 2px;">
+										<option value="0">Selecione</option>
+									</select>
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+									<label class="label">Múltiplo da caixa</label>
+									<input type="text" class="form-control multiplo_caixa_cadastrar" name="multiplo_caixa" placeholder="Múltiplo da caixa">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;">
+									<label class="label">Marca</label>
+									<input type="text" class="form-control marca_cadastrar" name="marca" placeholder="Marca">
+								</div>
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Garantia</label>
+									<input type="text" class="form-control garantia_cadastrar" name="garantia" placeholder="Garantia">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+									<label class="label">Link ML</label>
+									<input type="text" class="form-control link_ml_cadastrar" name="link_ml" placeholder="Link ML">
+								</div>
+
+								<div class="form-group" style="float: left; width: 49%;">
+									<label class="label">Link Youtube</label>
+									<input type="text" class="form-control link_youtube_cadastrar" name="link_youtube" placeholder="Link Youtube">
+								</div>
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Descricao Curta</label>
+									<textarea class="form-control descricao_cadastrar" name="descricao" placeholder="Descricao"></textarea>
+								</div>
+
+								<div class="form-group" style="float: left; width: 100%;">
+									<label class="label">Descricao Longa</label>
+									<textarea class="form-control descricao_longa_cadastrar" name="descricao_longa" placeholder="Descricao"></textarea>
+								</div>
+
+							</div>
+
+						</div>
+
+						<a class="btn btn-primary" onclick="Cadastrar()" style="float: right;">Cadastrar</a>
+						<a class="btn btn-primary" data-dismiss="modal" onclick="CancelarCadastroProduto()" style="float: right;margin-right: 10px;background: #767676;">Cancelar</a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="editar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document" style="max-width: 800px;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Editar Produto</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<div class="modal-body">
+
+						<div style="float: left; width: 100%;">
+							<form method="POST" id="form_img_item_editar" enctype="multipart/form-data" style="float: left; width: 100%;"> 
+								<div style="display:flex; gap:15px; align-items:flex-start; margin-bottom: 15px; width: 100%;">
+									<div id="main-preview-edit" style="flex: 0 0 40%; height: 240px; border: 2px solid #1071b8; border-radius: 8px; position: relative; overflow: hidden;">
+										<img src="assets/images/sem-foto.webp" id="main-preview-img-edit" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+										<span style="position: absolute; top: 6px; left: 6px; background: #1071b8; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 12px;">Principal</span>
+									</div>
+									<div id="image-slots-edit" style="flex: 1; display: flex; flex-direction: column; gap: 10px;">
+										<div class="image-row" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; width: 100%;">
+											<div class="image-slot-edit" data-slot="0" draggable="true" style="width: 100%; height: 110px; border: 2px solid #1071b8; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit0" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-0" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit0" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+											<div class="image-slot-edit" data-slot="1" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit1" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit1" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+											<div class="image-slot-edit" data-slot="2" draggable="true" style="width: 100%; height: 110px; border: 2 px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit2" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit2" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+										</div>
+										<div class="image-row" style="display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; width: 100%;">
+											<div class="image-slot-edit" data-slot="3" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit3" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-3" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit3" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+											<div class="image-slot-edit" data-slot="4" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit4" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-4" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit4" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+											<div class="image-slot-edit" data-slot="5" draggable="true" style="width: 100%; height: 110px; border: 2px solid #dddddd; border-radius: 8px; position: relative; overflow: hidden; background: #f7f7f7;">
+												<label for="inputImagemEdit5" style="display:block;width:100%;height:100%;cursor:pointer;">
+													<img src="assets/images/sem-foto.webp" id="img-edit-5" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;">
+												</label>
+												<input type="file" id="inputImagemEdit5" accept="image/*" style="display: none;">
+												<button type="button" class="slot-delete-edit btn btn-sm btn-light" style="position: absolute; top: 6px; right: 6px; padding: 0 6px; display: none;">x</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<input type="hidden" class="id_editar" name="id_editar" value="0">
+							</form>
+						</div>
+
+						<div style="float: left; width: 100%; padding-left: 0;">
+							<div class="form-group" style="float: left; width: 100%;">
+								<label class="label">Titulo</label>
+								<input type="text" class="form-control titulo_editar_produto" placeholder="Titulo">
+							</div>
+							<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+								<label class="label">Codigo</label>
+								<input type="text" class="form-control codigo_editar_produto" placeholder="Codigo">
+							</div>
+							<div class="form-group" style="float: left; width: 49%;">
+								<label class="label">Categoria</label>
+								<select class="form-control categoria_editar" style="width: 100%;font-size: 12px;padding-top: 2px;">
+									<option value="0">Selecione</option>
+								</select>
+							</div>
+
+
+							<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+								<label class="label">Múltiplo da caixa</label>
+								<input type="text" class="form-control multiplo_caixa_editar" name="multiplo_caixa" placeholder="Múltiplo da caixa">
+							</div>
+
+							<div class="form-group" style="float: left; width: 49%;">
+								<label class="label">Marca</label>
+								<input type="text" class="form-control marca_editar" name="marca" placeholder="Marca">
+							</div>
+
+							<div class="form-group" style="float: left; width: 100%;">
+								<label class="label">Garantia</label>
+								<input type="text" class="form-control garantia_editar" name="garantia" placeholder="Garantia">
+							</div>
+
+							<div class="form-group" style="float: left; width: 49%;margin-right: 2%;">
+								<label class="label">Link ML</label>
+								<input type="text" class="form-control link_ml_editar" name="link_ml" placeholder="Link ML">
+							</div>
+
+							<div class="form-group" style="float: left; width: 49%;">
+								<label class="label">Link Youtube</label>
+								<input type="text" class="form-control link_youtube_editar" name="link_youtube" placeholder="Link Youtube">
+							</div>
+
+
+							<div class="form-group" style="float: left; width: 100%;">
+								<label class="label">Descricao Curta</label>
+								<textarea class="form-control descricao_editar_produto" placeholder="Descricao"></textarea>
+							</div>
+							<div class="form-group" style="float: left; width: 100%;">
+								<label class="label">Descricao Longa</label>
+								<textarea class="form-control descricao_longa_editar_produto" placeholder="Descricao"></textarea>
+							</div>
+						</div>
+
+						<a class="btn btn-primary" data-dismiss="modal" style="float: right;background: #767676;">Cancelar</a>
+						<a class="btn btn-primary" onclick="SalvarEdicao()" style="float: right;margin-right: 10px;">Salvar</a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+		<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+		<script src="assets/js/sweetalert.all.min.js"></script>
+		<script src="assets/js/jquery.mask.min.js"></script>
+		<script src="assets/js/global.js?v=5"></script>
+		<script src="assets/plugins/sidemenu/sidemenu.js"></script>
+		<script src="assets/plugins/p-scroll/perfect-scrollbar.js"></script>
+		<script src="assets/plugins/p-scroll/p-scroll.js"></script>
+		<script src="assets/plugins/p-scroll/p-scroll-1.js?v=2"></script>
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+		<script src="assets/plugins/select2/select2.full.min.js"></script>
+		<script src="assets/js/form-elements.js"></script>
+		<script src="assets/js/custom.js"></script>   
+		<script src="assets/js/produtos.js?v=36"></script>  
+
+
+
+    </body>
+</html>
+
+
+

@@ -1,0 +1,18 @@
+# Credenciais e arquivos privados
+conexao.php
+**/conexao.php
+enviar.php
+envia-curriculo.php
+dados.csv
+
+# Backups
+backup/
+beckup/
+homologacao/
+*.zip
+
+# Arquivos do sistema
+.DS_Store
+.env
+.env.*
+*.log
