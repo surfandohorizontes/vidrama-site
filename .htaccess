@@ -1,0 +1,144 @@
+# Vidrama - configuracao unificada para Apache/LiteSpeed + Cloudflare
+
+# Impede listagem de diretorios quando o modulo estiver disponivel.
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# Mantem o limite atual para formularios, curriculos e uploads do painel.
+LimitRequestBody 102400000
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1) Canonicaliza protocolo e host.
+    # X-Forwarded-Proto evita loop quando o HTTPS termina no Cloudflare.
+    # O status 308 preserva metodo e corpo em requisicoes POST, inclusive APIs.
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+    RewriteRule ^ https://www.vidrama.com.br%{REQUEST_URI} [R=308,L,NE]
+
+    RewriteCond %{HTTP_HOST} !^www\.vidrama\.com\.br$ [NC]
+    RewriteRule ^ https://www.vidrama.com.br%{REQUEST_URI} [R=308,L,NE]
+
+    # 2) Remove .html apenas das paginas publicas conhecidas.
+    # THE_REQUEST garante que reescritas internas nao gerem loops.
+    RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
+    RewriteRule ^index\.html$ / [R=301,L,NE]
+
+    RewriteCond %{THE_REQUEST} \s/+[a-zA-Z0-9_-]+\.html(?:[?\s]) [NC]
+    RewriteRule ^(adas|contato|produtos|servicos|sobre|detalhes|trabalhe-conosco|politica-de-privacidade|obrigado|erro)\.html$ /$1 [R=301,L,NE,NC]
+
+    # 3) Remove barra final de URLs que nao sejam diretorios fisicos.
+    # APIs ficam excluidas para que nenhum POST sofra redirecionamento 301.
+    # /painel recebe uma regra propria porque e um diretorio fisico e sua URL
+    # canonica atual e sem barra.
+    RewriteCond %{REQUEST_URI} !^/api(?:/|$) [NC]
+    RewriteCond %{REQUEST_URI} !^/$
+    RewriteCond %{REQUEST_URI} .+/$
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.+)/$ /$1 [R=301,L,NE]
+
+    RewriteRule ^painel/$ /painel [R=301,L,NE,NC]
+
+    # 4) APIs publicas e privadas sem extensao.
+    # Sao reescritas internamente para PHP; metodo, corpo e query string ficam
+    # preservados. A barra final opcional continua aceita nas APIs.
+    RewriteRule ^api/private/autenticar/?$ api/private/autenticar.php [L,NC,QSA]
+    RewriteRule ^api/private/select/?$ api/private/select.php [L,NC,QSA]
+    RewriteRule ^api/private/insert/?$ api/private/insert.php [L,NC,QSA]
+    RewriteRule ^api/private/update/?$ api/private/update.php [L,NC,QSA]
+    RewriteRule ^api/private/delete/?$ api/private/delete.php [L,NC,QSA]
+
+    RewriteRule ^api/public/select/?$ api/public/select.php [L,NC,QSA]
+    RewriteRule ^api/public/insert/?$ api/public/insert.php [L,NC,QSA]
+
+    # 5) Paginas publicas sem extensao.
+    RewriteRule ^adas/?$ adas.html [L,NC,QSA]
+    RewriteRule ^contato/?$ contato.html [L,NC,QSA]
+    RewriteRule ^produtos/?$ produtos.html [L,NC,QSA]
+    RewriteRule ^servicos/?$ servicos.html [L,NC,QSA]
+    RewriteRule ^sobre/?$ sobre.html [L,NC,QSA]
+    RewriteRule ^detalhes/?$ detalhes.html [L,NC,QSA]
+    RewriteRule ^trabalhe-conosco/?$ trabalhe-conosco.html [L,NC,QSA]
+    RewriteRule ^politica-de-privacidade/?$ politica-de-privacidade.html [L,NC,QSA]
+    RewriteRule ^obrigado/?$ obrigado.html [L,NC,QSA]
+    RewriteRule ^erro/?$ erro.html [L,NC,QSA]
+
+    # 6) Detalhes de produto. O slug permanece restrito ao formato atual.
+    RewriteRule ^produtos/([a-zA-Z0-9_-]+)/?$ detalhes.html [L,NC,QSA]
+
+    # 7) Painel administrativo. Nao ha remocao publica de .html no /painel.
+    RewriteRule ^painel/?$ painel/index.html [L,NC,QSA]
+    RewriteRule ^painel/principal/?$ painel/principal.html [L,NC,QSA]
+    RewriteRule ^painel/usuarios/?$ painel/usuarios.html [L,NC,QSA]
+    RewriteRule ^painel/produtos/?$ painel/produtos.html [L,NC,QSA]
+    RewriteRule ^painel/categorias/?$ painel/categorias.html [L,NC,QSA]
+</IfModule>
+
+# 8) Compressao: Brotli quando disponivel; GZIP como fallback.
+# Todos os blocos sao condicionais para evitar erro 500 por modulo ausente.
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/xml application/javascript application/json application/xml image/svg+xml font/ttf font/otf font/woff font/woff2
+</IfModule>
+
+<IfModule !mod_brotli.c>
+    <IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json application/xml image/svg+xml font/ttf font/otf font/woff font/woff2
+    </IfModule>
+</IfModule>
+
+# 9) Cache conservador por tipo de conteudo.
+# CSS/JS: 7 dias. Imagens/fontes: 30 dias. Demais respostas: revalidacao.
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 0 seconds"
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+    ExpiresByType text/javascript "access plus 7 days"
+    ExpiresByType image/avif "access plus 30 days"
+    ExpiresByType image/gif "access plus 30 days"
+    ExpiresByType image/x-icon "access plus 30 days"
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/svg+xml "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType font/ttf "access plus 30 days"
+    ExpiresByType font/otf "access plus 30 days"
+    ExpiresByType font/woff "access plus 30 days"
+    ExpiresByType font/woff2 "access plus 30 days"
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+    ExpiresByType text/csv "access plus 0 seconds"
+    ExpiresByType application/pdf "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+    # HTML, PHP/APIs, painel, XML, CSV e PDF nao recebem cache longo.
+    <FilesMatch "\.(?:html?|php[0-9]?|phtml|xml|csv|pdf)$">
+        Header always set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+        Header always set Pragma "no-cache"
+        Header always set Expires "0"
+    </FilesMatch>
+
+    <FilesMatch "\.(?:css|js)$">
+        Header set Cache-Control "public, max-age=604800"
+    </FilesMatch>
+
+    <FilesMatch "\.(?:avif|gif|ico|jpe?g|png|svg|webp|otf|ttf|woff2?)$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+
+    # 10) Cabecalhos de seguranca conservadores.
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 11) Handler PHP atual gerado pelo cPanel. Mantido temporariamente ate a
+# confirmacao da versao e do handler ativos no MultiPHP Manager.
+<IfModule mime_module>
+    AddHandler application/x-httpd-ea-php74___lsphp .php .php7 .phtml
+</IfModule>
