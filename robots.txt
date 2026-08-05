@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /painel/
+Disallow: /PHPMailer-master/
+Disallow: /lib/
+Disallow: /importar.php
+
+Sitemap: https://www.vidrama.com.br/sitemap.xml
